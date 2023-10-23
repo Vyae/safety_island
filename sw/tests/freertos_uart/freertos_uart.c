@@ -39,27 +39,12 @@
 #include "irq.h"
 #include "gpio.h"
 
-/* pmsis */
-#include "target.h"
-#include "os.h"
-
-void vApplicationMallocFailedHook(void);
 void vApplicationIdleHook(void);
 void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName);
 void vApplicationTickHook(void);
 
-char hello[40];
-
-void helloworld(void)
-{
-	printf("Entering main controller\n");
-	uint32_t core_id = pi_core_id(), cluster_id = pi_cluster_id();
-
-	sprintf(hello, "[%"PRIu32" %"PRIu32"] Hello World!\n", cluster_id, core_id);
-	puts(hello);
-
-	pmsis_exit(EXIT_SUCCESS);
-}
+void vTask1( void *pvParameters );
+void vTask2( void *pvParameters );
 
 /* Program Entry. */
 int main(void)
@@ -68,28 +53,58 @@ int main(void)
 	system_init();
 
 	printf("\n\n\t *** FreeRTOS HelloWorld *** \n\n");
-	return pmsis_kickoff((void *) helloworld);
+
+	/* Create one of the two tasks. Note that a real application should check
+	the return value of the xTaskCreate() call to ensure the task was created
+	successfully. */
+	TaskHandle_t xTask1 = xTaskCreate( vTask1, "Task 1", 100, NULL, 1, NULL );
+	//printf("task1 creation: %x\n", xTask1);
+	/* Create the other task in exactly the same way and at the same priority. */
+	TaskHandle_t xTask2 = xTaskCreate( vTask2, "Task 2", 100, NULL, 1, NULL );
+	//printf("task2 creation: %x\n", xTask2);
+	/* Start the scheduler so the tasks start executing. */
+	vTaskStartScheduler();
+	/* If all is well then main() will never reach here as the scheduler will
+	now be running the tasks. If main() does reach here then it is likely that
+	there was insufficient heap memory available for the idle task to be created.
+	Chapter 2 provides more information on heap memory management. */
+	for( ;; );
 }
 
-
-void vApplicationMallocFailedHook(void)
+void vTask1( void *pvParameters )
 {
-	/* vApplicationMallocFailedHook() will only be called if
-	configUSE_MALLOC_FAILED_HOOK is set to 1 in FreeRTOSConfig.h.  It is a hook
-	function that will get called if a call to pvPortMalloc() fails.
-	pvPortMalloc() is called internally by the kernel whenever a task, queue,
-	timer or semaphore is created.  It is also called by various parts of the
-	demo application.  If heap_1.c or heap_2.c are used, then the size of the
-	heap available to pvPortMalloc() is defined by configTOTAL_HEAP_SIZE in
-	FreeRTOSConfig.h, and the xPortGetFreeHeapSize() API function can be used
-	to query the size of free heap space that remains (although it does not
-	provide information on how the remaining heap might be fragmented). */
-	taskDISABLE_INTERRUPTS();
-	printf("error: application malloc failed\n");
-	__asm volatile("ebreak");
-	for (;;)
-		;
+	const char *pcTaskName = "Task 1 is running\r\n";
+	volatile uint32_t ul; /* volatile to ensure ul is not optimized away. */
+	/* As per most tasks, this task is implemented in an infinite loop. */
+	for( ;; ) {
+		/* Print out the name of this task. */
+		printf(pcTaskName);
+		/* Delay for a period. */
+		for( ul = 0; ul < 10000; ul++ ){
+		/* This loop is just a very crude delay implementation. There is
+		nothing to do in here. Later examples will replace this crude
+		loop with a proper delay/sleep function. */
+		}
+	}
 }
+
+void vTask2( void *pvParameters )
+{
+	const char *pcTaskName = "Task 2 is running\r\n";
+	volatile uint32_t ul; /* volatile to ensure ul is not optimized away. */
+	/* As per most tasks, this task is implemented in an infinite loop. */
+	for( ;; ) {
+		/* Print out the name of this task. */
+		printf(pcTaskName);
+		/* Delay for a period. */
+		for( ul = 0; ul < 10000; ul++ ){
+		/* This loop is just a very crude delay implementation. There is
+		nothing to do in here. Later examples will replace this crude
+		loop with a proper delay/sleep function. */
+		}
+	}
+}
+
 
 void vApplicationIdleHook(void)
 {
@@ -122,4 +137,5 @@ void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName)
 void vApplicationTickHook(void)
 {
 }
+
 

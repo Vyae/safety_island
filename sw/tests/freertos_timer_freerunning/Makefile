@@ -54,10 +54,10 @@ CONFIG_CLUSTER=n
 include $(FREERTOS_PROJ_ROOT)/default_srcs.mk
 
 # application name
-PROG = freertos_uart
+PROG = freertos_timer_freerunning
 
 # application/user specific code
-USER_SRCS = freertos_uart.c
+USER_SRCS = freertos_timer_freerunning.c
 
 # FreeRTOS.h
 CPPFLAGS += $(addprefix -I$(USER_DIR)/, ".")
