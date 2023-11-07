@@ -51,7 +51,7 @@ int main(void)
 {
 	/* Init board hardware. */
 	system_init();
-
+	
 	printf("\n\n\t *** FreeRTOS HelloWorld *** \n\n");
 
 	/* Create one of the two tasks. Note that a real application should check
@@ -80,7 +80,7 @@ void vTask1( void *pvParameters )
 		/* Print out the name of this task. */
 		printf(pcTaskName);
 		/* Delay for a period. */
-		for( ul = 0; ul < 10000; ul++ ){
+		for( ul = 0; ul < 1000; ul++ ){
 		/* This loop is just a very crude delay implementation. There is
 		nothing to do in here. Later examples will replace this crude
 		loop with a proper delay/sleep function. */
@@ -97,7 +97,7 @@ void vTask2( void *pvParameters )
 		/* Print out the name of this task. */
 		printf(pcTaskName);
 		/* Delay for a period. */
-		for( ul = 0; ul < 10000; ul++ ){
+		for( ul = 0; ul < 1000; ul++ ){
 		/* This loop is just a very crude delay implementation. There is
 		nothing to do in here. Later examples will replace this crude
 		loop with a proper delay/sleep function. */

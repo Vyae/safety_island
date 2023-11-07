@@ -101,9 +101,9 @@ $(SAFED_SW_DIR)/pulp-runtime:
 	git clone https://github.com/pulp-platform/pulp-runtime.git -b safety-island $@
 
 $(SAFED_SW_DIR)/pulp-freertos:
-	git clone https://github.com/pulp-platform/pulp-freertos.git $@
+	git clone git@github.com:Vyae/pulp-freertos.git $@
 	cd $@; \
-	git checkout carfield/safety-island; \
+	git checkout narrn/safety-island; \
 	git submodule update --init --recursive
 
 .PHONY: safed-sw-all

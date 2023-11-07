@@ -38,16 +38,9 @@ static int blink_times;
 
 void timer1_handler(void)
 {
-	//printf("blink\n");
-	/* terminate after a few blinks */
 	blink_times++;
-	if (blink_times > 4) {
-        printf("4 blinks\n");
-    }
-    __asm volatile(
-		"csrrsi x0, 0x345, 8 \n"
-		:::
-	);
+    // After printing interrupts are disabled until we start scheduler
+    printf("%d timer interrupts\n", blink_times);
 }
 
 
@@ -58,24 +51,15 @@ int main(void) {
     /* Init board hardware. */
 	system_init();
 
-    __asm volatile(
-        "addi t0, x0, 8\n           \
-         csrrs x0, mstatus, t0\n    \
-         slli t0, t0, 8\n           \
-         csrrs x0, mie, t0\n         "
-        :::"t0"
-    );
-
-	/* hook up high timer interrupt */
-	irq_set_handler(IRQ_FC_EVT_TIMER0_HI, timer1_handler);
+	/* set high timer interrupt handler */
+	irq_set_handler(IRQ_TIMER_HI, timer1_handler);
 
 	/* reset timer (not really necessary in this case) */
-	writew(1, (uintptr_t)(PULP_FC_TIMER_ADDR + TIMER_RESET_HI_OFFSET));
+	writew(1, (uintptr_t)(PULP_TIMER_ADDR + TIMER_RESET_HI_OFFSET));
 
-	/* set interrupt frequency to TIMER1_TICK_RATE_HZ */
-#define TIMER1_TICK_RATE_HZ ((TickType_t)2000)
-	writew(ARCHI_REF_CLOCK / TIMER1_TICK_RATE_HZ,
-	       (uintptr_t)(PULP_FC_TIMER_ADDR + TIMER_CMP_HI_OFFSET));
+	/* set interrupt frequency to 2000 */
+	writew(ARCHI_REF_CLOCK / (TickType_t)2000,
+	       (uintptr_t)(PULP_TIMER_ADDR + TIMER_CMP_HI_OFFSET));
 
 	/* Enable timer (TIMER_CFG_HI_ENABLE_MASK), use 32khz ref clock as
 	 * source (TIMER_CFG_HI_CLKCFG_MASK). Timer will reset automatically
@@ -86,17 +70,11 @@ int main(void) {
 	writew(TIMER_CFG_HI_ENABLE_MASK | TIMER_CFG_HI_RESET_MASK |
 		       TIMER_CFG_HI_CLKCFG_MASK | TIMER_CFG_HI_MODE_MASK |
 		       TIMER_CFG_HI_IRQEN_MASK,
-	       (uintptr_t)(PULP_FC_TIMER_ADDR + TIMER_CFG_HI_OFFSET));
+	       (uintptr_t)(PULP_TIMER_ADDR + TIMER_CFG_HI_OFFSET));
 
-	/* Enable timer1 interrupt. Need to enable this in the CV32E40P and the
-	 * apb_interrupt controller. In RI5CY we didn't need to touch the clint
-	 * since it was in a kind of "passthrough" mode. */
-	irq_enable(IRQ_FC_EVT_TIMER0_HI);
-	irq_clint_enable(IRQ_FC_EVT_TIMER0_HI);
-
-	/* start test */
-	//printf("Starting timer test\n");
-
+	irq_enable(IRQ_TIMER_HI);
+	
+	vTaskStartScheduler();
 	/* should never happen */
 	for (;;);
 
