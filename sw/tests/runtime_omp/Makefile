@@ -1,6 +1,6 @@
 PULP_APP = omptarget_runtime
 PULP_APP_FC_SRCS = sw_mailbox.c main.c
-PULP_CFLAGS = -O3 -g
+PULP_CFLAGS = -O0 -mno-relax
 
 include $(PULP_SDK_HOME)/install/rules/pulp_rt.mk
 
