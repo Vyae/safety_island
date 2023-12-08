@@ -50,7 +50,7 @@ CFLAGS = \
 
 CONFIG_CLUSTER=n
 
-# rtos, pulp and pmsis sources
+# rtos, pulp
 include $(FREERTOS_PROJ_ROOT)/default_srcs.mk
 
 # application name

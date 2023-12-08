@@ -14,11 +14,7 @@
  * limitations under the License.
  *
  * SPDX-License-Identifier: Apache-2.0
- * Author: Robert Balas (balasr@iis.ee.ethz.ch)
- */
-
-/*
- * A minimal pmsis example. Mainly used to test if we can link against pmsis.
+ * Author: Nicole Narr (narrn@student.ethz.ch)
  */
 
 /* FreeRTOS kernel includes. */
@@ -35,7 +31,6 @@
 /* system includes */
 #include "system.h"
 #include "timer_irq.h"
-#include "fll.h"
 #include "irq.h"
 #include "gpio.h"
 
@@ -46,14 +41,23 @@ void vApplicationTickHook(void);
 void vTask1( void *pvParameters );
 void vTask2( void *pvParameters );
 
+volatile uint32_t test0 = 0x0;
+volatile uint32_t test1 = 0x0;
+volatile uint32_t test2 = 0x0;
+volatile uint32_t test3 = 0x0;
+volatile uint32_t test4 = 0x0;
+
 /* Program Entry. */
 int main(void)
 {
 	/* Init board hardware. */
+	test0 = 0xFFFFFFFF;
 	system_init();
 	
+	test1 = 0xFFFFFFFF;
 	printf("\n\n\t *** FreeRTOS HelloWorld *** \n\n");
 
+	test2 = 0xFFFFFFFF;
 	/* Create one of the two tasks. Note that a real application should check
 	the return value of the xTaskCreate() call to ensure the task was created
 	successfully. */
@@ -62,12 +66,22 @@ int main(void)
 	/* Create the other task in exactly the same way and at the same priority. */
 	TaskHandle_t xTask2 = xTaskCreate( vTask2, "Task 2", 100, NULL, 1, NULL );
 	//printf("task2 creation: %x\n", xTask2);
+
+	test3 = 0xFFFFFFFF;
 	/* Start the scheduler so the tasks start executing. */
 	vTaskStartScheduler();
+
+	test4 = 0xFFFFFFFF;
 	/* If all is well then main() will never reach here as the scheduler will
 	now be running the tasks. If main() does reach here then it is likely that
 	there was insufficient heap memory available for the idle task to be created.
 	Chapter 2 provides more information on heap memory management. */
+	(void)test0;
+	(void)test1;
+	(void)test2;
+	(void)test3;
+	(void)test4;
+
 	for( ;; );
 }
 
