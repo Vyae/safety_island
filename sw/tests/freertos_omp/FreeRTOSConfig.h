@@ -60,20 +60,20 @@
 #define configUSE_IDLE_HOOK	 0
 #define configUSE_TICK_HOOK	 0
 #define configCPU_CLOCK_HZ	 DEFAULT_SYSTEM_CLOCK
-#define configTICK_RATE_HZ	 ((TickType_t)1000)
+#define configTICK_RATE_HZ	 ((TickType_t)100)
 #define configMAX_PRIORITIES	 (5)
 /* Can be as low as 60 but some of the demo tasks that use this constant require it to be higher. */
 #define configMINIMAL_STACK_SIZE ((unsigned short)400)
 // /* we want to put the heap into special section */
-// #define configAPPLICATION_ALLOCATED_HEAP 1
-// #define configTOTAL_HEAP_SIZE		 ((size_t)(4 * 1024))
+#define configAPPLICATION_ALLOCATED_HEAP 1
+#define configTOTAL_HEAP_SIZE		 ((size_t)(32 * 1024))
 #define configMAX_TASK_NAME_LEN		 (16)
 #define configUSE_TRACE_FACILITY	 1 /* TODO: 0 */
 #define configUSE_16_BIT_TICKS		 0
 #define configIDLE_SHOULD_YIELD		 0
 #define configUSE_MUTEXES		 1
 #define configQUEUE_REGISTRY_SIZE	 8
-#define configCHECK_FOR_STACK_OVERFLOW	 2
+#define configCHECK_FOR_STACK_OVERFLOW	 1
 #define configUSE_RECURSIVE_MUTEXES	 1
 #define configUSE_MALLOC_FAILED_HOOK	 0
 #define configUSE_APPLICATION_TASK_TAG	 0
@@ -119,18 +119,19 @@ to exclude the API function. */
 
 /* Normal assert() semantics without relying on the provision of an assert.h
 header file. */
-#ifdef __PULP_USE_LIBC
-#define configASSERT(x) assert(x)
-#else
+//#ifdef __PULP_USE_LIBC
+//#define configASSERT(x) assert(x)
+//#else
 #define configASSERT(x)                                                        \
 	do {                                                                   \
 		if ((x) == 0) {                                                \
 			taskDISABLE_INTERRUPTS();                              \
+			printf("Assertion (%s) failed!\r\n", #x);				\
 			for (;;)                                               \
 				;                                              \
 		}                                                              \
 	} while (0)
-#endif
+//#endif
 
 #define configUSE_PORT_OPTIMISED_TASK_SELECTION 1
 #define configKERNEL_INTERRUPT_PRIORITY		7

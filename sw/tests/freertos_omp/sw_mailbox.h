@@ -5,6 +5,7 @@
 
 #include <stdint.h>
 #include <string.h>
+#include <stdio.h>
 
 /***********************************************************************************
  * MACROS
@@ -127,9 +128,10 @@ static inline int rb_device_get(volatile struct ring_buf *rb, void *el) {
     // caught the head, can't get data
     if (rb->tail == rb->head)
         return -1;
-    for (uint32_t i = 0; i < rb->element_size; i++)
-        *((uint8_t *)el + i) =
-            *((uint8_t *)rb->data_p + rb->element_size * rb->tail + i);
+    for (uint32_t i = 0; i < rb->element_size; i++) {
+        *((uint8_t *)el + i) = *((uint8_t *)rb->data_p + rb->element_size * rb->tail + i);
+        //printf("Read stuff: %x at 0x%lx\r\n", *((uint8_t *)el + i), (rb->data_p + rb->element_size * rb->tail + i));
+    }
     rb->tail = (rb->tail + 1) % rb->size;
     return 0;
 }

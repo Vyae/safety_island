@@ -61,10 +61,50 @@ uint32_t nb_offload_funcs;
 void **offload_var_table;
 uint32_t nb_offload_vars;
 
-int gomp_offload_manager( void *pvParameters ) {
-    printf("XXXXXXXXXXXX [GOMP_OFFLOAD_MANAGER]\n\r");
-    // Init the manager (handshake btw host and accelerator is here)
-    // gomp_init_offload_manager();
+// Struct for offload_task_wrapper arguments
+struct offload_wrapper_args {
+    void (*offloadFn)(uint64_t);
+    void *offloadArgs; 
+    int32_t period;
+};
+
+void offload_task_wrapper( void *pvParameters )
+{
+    if(!pvParameters) {
+        printf("offload_task_wrapper: Null argument. Abort.\r\n");
+        return;
+    }
+
+    // Unpack arguments
+	struct offload_wrapper_args *offload_params = (struct offload_wrapper_args *) pvParameters;
+
+    TickType_t xLastWakeTime;
+    const TickType_t xPeriod = offload_params->period;
+
+    printf("Start of offload_task_wrapper\r\n");
+    printf("args: offloadFn: 0x%x, offloadArgs: 0x%x, period: 0x%x\r\n", 
+        offload_params->offloadFn, offload_params->offloadArgs, offload_params->period);
+
+    // Initialise the xLastWakeTime variable with the current time.
+    xLastWakeTime = xTaskGetTickCount();
+
+    // Execute offloaded function
+    (*offload_params->offloadFn)(offload_params->offloadArgs);
+
+    if(xPeriod > 0) {
+        while(1) {
+            // Wait for the next cycle.
+            vTaskDelayUntil(&xLastWakeTime, xPeriod);
+
+            // Execute offloaded function
+            (*offload_params->offloadFn)(offload_params->offloadArgs);
+        }
+    }
+}
+
+
+void gomp_offload_manager( void *pvParameters ) {
+    printf("XXXXXXXXXXXX [GOMP_OFFLOAD_MANAGER]\r\n");
 
     // FIXME For the momenent we are not using the cmd sended as trigger.
     // It should be used to perform the deactivation of the accelerator,
@@ -73,111 +113,151 @@ int gomp_offload_manager( void *pvParameters ) {
     // We should compact the offload descriptor and just sent a pointer to
     // that descriptor.
 
-    // uint32_t cmd = (uint32_t)NULL;
+    uint32_t cmd = (uint32_t)NULL;
 
-    // // Offloaded function pointer and arguments
-    // void (*offloadFn)(uint64_t) = NULL;
-    // uint64_t offloadArgs = 0x0;
-    // int nbOffloadRabMissHandlers = 0x0;
+    // Offloaded function pointer and arguments
+    void (*offloadFn)(uint64_t) = NULL;
+    void *offloadArgs = 0x0;
+    int32_t priority = 0x0;
+    int32_t period = 0x0;
+    int nbOffloadRabMissHandlers = 0x0;
+    struct offload_wrapper_args *offload_wrapper_args = NULL;
 
-    // //int cycles = 0;
+    uint32_t freeHeapSpace = 0;
 
-    // //g_a2h_mbox = *((struct ring_buf **)0x3000004);
-    // //g_h2a_mbox = *((struct ring_buf **)0x3000000);
+    //int cycles = 0;
 
-    // // Print the addresses of the mboxes for debug purpose
-    // // Note this printf is uper minimal, we need to wait to avoid
-    // // loosing chars when the UART is busy
-    // //csleep(1024 * 1024 * 100);
-    // printf("XXXXX [device g_a2h_mbox]\n\r");
-    // csleep(1024 * 1024 * 10);
-    // printf("%x\n\r", g_a2h_mbox);
-    // csleep(1024 * 1024 * 10);
-    // printf("%x\n\r", g_h2a_mbox);
-    // csleep(1024 * 1024 * 10);
-    // printf("done\n\r");
+    // Print the addresses of the mboxes for debug purpose
+    // Note this printf is uper minimal, we need to wait to avoid
+    // loosing chars when the UART is busy
+    uint32_t *chs_ctrl_regs = 0x3000000;
 
-    // while (1) {
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("Waiting for command...\n\r");
 
-    //     // (1) Wait for the offload trigger.
-    //     mailbox_read((uint32_t *)&cmd, 1);
+    csleep(1024 * 1024 * 2);
 
-    //     if (MBOX_DEVICE_STOP == cmd) {
-    //         if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //             printf("Got PULP_STOP from host, stopping execution now.\n");
-    //         break;
-    //     }
+    printf("XXXXX mailboxes: 0x%x and 0x%x\r\n", *(chs_ctrl_regs), *(chs_ctrl_regs + 1));
+    g_h2a_mbox = *((struct ring_buf **) chs_ctrl_regs);
+    g_a2h_mbox = *((struct ring_buf **)(chs_ctrl_regs + 1));
 
-    //     // (2) The host sends through the mailbox the pointer to the function
-    //     // that should be executed on the accelerator.
-    //     mailbox_read((uint32_t *)&offloadFn, 1);
+    int task_nr = 0;
+    char task_name[] = "Offloaded task XX\0"; 
 
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("tgt_fn @ 0x%x\n", (uint32_t)offloadFn);
+    while (1) {
+        if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
+            printf("Waiting for command...\r\n");
 
-    //     // (3) The host sends through the mailbox the pointer to the arguments
-    //     // that should be used.
-    //     mailbox_read((uint32_t *)&offloadArgs, 1);
+        // (1) Wait for the offload trigger.
+        mailbox_read((uint32_t *)&cmd, 1);
+        printf("XXXXX cmd: 0x%x\r\n", cmd);
 
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("tgt_vars @ 0x%x\n", (uint32_t)offloadArgs);
+        if (MBOX_DEVICE_STOP == cmd) {
+            if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
+                printf("Got PULP_STOP from host, stopping execution now.\r\n");
+            break;
+        }
 
-    //     // (3b) The host sends through the mailbox the number of rab misses
-    //     // handlers threads
-    //     mailbox_read((uint32_t *)&nbOffloadRabMissHandlers, 1);
+        // (2) The host sends through the mailbox the pointer to the function
+        // that should be executed on the accelerator.
+        mailbox_read((uint32_t *)&offloadFn, 1);
 
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("nbOffloadRabMissHandlers %d\n", nbOffloadRabMissHandlers);
+        // (3) The host sends through the mailbox the pointer to the arguments
+        // that should be used.
+        mailbox_read((uint32_t *)&offloadArgs, 1);
 
-    //     // (3c) Spawning nbOffloadRabMissHandlers
-    //     // Not implemented
+        // (3) The host sends through the mailbox the priority of the task to
+        // be created.
+        mailbox_read((int32_t *)&priority, 1);
 
-    //     // (4) Ensure access to offloadArgs. It might be in SVM.
-    //     // Not implemented
+        mailbox_read((int32_t *)&period, 1);
 
-    //     // (5) Execute the offloaded function.
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("begin offloading\n");
-    //     //reset_timer();
-    //     //start_timer();
-    //     offloadFn(offloadArgs);
-    //     //stop_timer();
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("end offloading\n");
-    //     //cycles = get_time();
+        // (3b) The host sends through the mailbox the number of rab misses
+        // handlers threads
+        mailbox_read((uint32_t *)&nbOffloadRabMissHandlers, 1);
 
-    //     mailbox_write(MBOX_DEVICE_DONE);
-    //     //mailbox_write(cycles);
-    //     mailbox_write(0x0);
+        // if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
+        //     printf("nbOffloadRabMissHandlers %d\r\n", nbOffloadRabMissHandlers);
 
-    //     if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
-    //         printf("Kernel execution time [PULP cycles] = %d\n", 0x0);
+        // (3c) Spawning nbOffloadRabMissHandlers
+        // Not implemented
 
-    //     if (nbOffloadRabMissHandlers) {
-    //     }
-    // }
+        // (4) Ensure access to offloadArgs. It might be in SVM.
+        // Not implemented
 
-    // return 0;
+        if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
+            printf("Received task to offload: tgt_fn: 0x%x, tgt_vars: 0x%x, priority: 0x%x, period:0x%x\r\n", 
+                    (uint32_t)offloadFn, (uint32_t)offloadArgs, (int32_t)priority, (int32_t)period);
+
+        // (5) Execute the offloaded function.
+        //reset_timer();
+        //start_timer();
+        //offloadFn(offloadArgs);
+
+        // Name of task
+        task_name[16] = '0' + task_nr % 10;
+        task_name[15] = '0' + task_nr / 10;
+        task_nr++;
+
+        // Pack arguments for TaskCreate
+        offload_wrapper_args = (struct offload_wrapper_args *) pvPortMalloc(sizeof(struct offload_wrapper_args));
+        if(!offload_wrapper_args) {
+            printf("Malloc returned NULL. Abort.\r\n");
+            return;
+        }
+        offload_wrapper_args->offloadFn = offloadFn;
+        offload_wrapper_args->offloadArgs = offloadArgs;
+        offload_wrapper_args->period = period;
+
+        freeHeapSpace = xPortGetFreeHeapSize();
+        printf("free heap space: %x\r\n", freeHeapSpace);
+        if (priority < 0) {
+            priority = 2;
+        }
+        TaskHandle_t xOffloadTask = xTaskCreate( offload_task_wrapper, task_name, 700, (void *) offload_wrapper_args, priority, NULL );
+    
+        printf("Offloaded task \"%s\" created: %x\r\n", task_name, xOffloadTask);
+
+        //stop_timer();
+        //cycles = get_time();
+
+        mailbox_write(MBOX_DEVICE_DONE);
+        //mailbox_write(cycles);
+        mailbox_write(0x0);
+
+        // if (DEBUG_LEVEL_OFFLOAD_MANAGER > 0)
+        //     printf("Kernel execution time [PULP cycles] = %d\r\n", 0x0);
+
+        if (nbOffloadRabMissHandlers) {
+        }
+    }
+
+    return;
 }
 
 void vTask1( void *pvParameters )
 {
 	const char *pcTaskName = "Task 1 is running\r\n";
-	volatile uint32_t ul; /* volatile to ensure ul is not optimized away. */
 	/* As per most tasks, this task is implemented in an infinite loop. */
-	for( ;; ) {
-		/* Print out the name of this task. */
+    TickType_t xLastWakeTime;
+    // Before: 1024 x 1024 x 10 cycles
+    // Now: 100000 x 100 Cycles? per Tick
+    const TickType_t xFrequency = 20 * 1024;
+
+    printf(pcTaskName);
+
+    // Initialise the xLastWakeTime variable with the current time.
+    xLastWakeTime = xTaskGetTickCount();
+
+    volatile int x=0;
+    while(1) {
+        // Wait for the next cycle.
+        //vTaskDelayUntil( &xLastWakeTime, xFrequency );
+
+        for(int i=0; i<1024*20000; i++){
+            (void) x;
+        }
+        /* Print out the name of this task. */
 		printf(pcTaskName);
-		/* Delay for a period. */
-		//for( ul = 0; ul < 10000000; ul++ ){
-        for( ul = 0; ul < 100000; ul++ ){
-		/* This loop is just a very crude delay implementation. There is
-		nothing to do in here. Later examples will replace this crude
-		loop with a proper delay/sleep function. */
-		}
-	}
+    }
 }
 
 ////////////////////////////
@@ -195,12 +275,12 @@ __attribute__((weak)) int main(int argc, char **argv, char **envp) {
 
     printf("INITIATED SAFETY ISLAND SYSTEM\r\n");
 
-    TaskHandle_t xOffloadTask = xTaskCreate( gomp_offload_manager, "Offload Manager", 400, NULL, 1, NULL );
+    TaskHandle_t xOffloadTask = xTaskCreate( gomp_offload_manager, "Offload Manager", 1500, NULL, 2, NULL );
     
     printf("Offload task created: %x\r\n", xOffloadTask);
     
 	/* Create the other task in exactly the same way and at the same priority. */
-	TaskHandle_t xTask1 = xTaskCreate( vTask1, "Task 1", 100, NULL, 1, NULL );
+	TaskHandle_t xTask1 = xTaskCreate( vTask1, "Printer Task", 700, NULL, 2, NULL );
 
     printf("Print task created: %x\r\n", xTask1);
 
@@ -228,6 +308,7 @@ void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName)
 	configCHECK_FOR_STACK_OVERFLOW is defined to 1 or 2.  This hook
 	function is called if a stack overflow is detected. */
 	taskDISABLE_INTERRUPTS();
+    printf("TopOfStack: 0x%08x\r\n", *((unsigned int *) pxTask));
 	printf("ERROR: stack overflow from task %s\r\n", pcTaskName);
 	//__asm volatile("ebreak");
 	for (;;)

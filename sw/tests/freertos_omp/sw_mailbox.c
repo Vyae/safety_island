@@ -70,6 +70,7 @@ int mailbox_try_read(uint32_t *buffer) {
 }
 int mailbox_read(uint32_t *buffer, size_t n_words) {
     int ret;
+    //printf("Reading mailbox 0x%lx...\r\n", g_h2a_mbox);
     while (n_words--) {
         do {
             ret = rb_device_get(g_h2a_mbox, &buffer[n_words]);
