@@ -9,7 +9,7 @@ CFLAGS = \
 	-std=gnu11 \
 	-Wall -Wextra -Wshadow -Wformat=2 -Wundef \
 	-Wno-unused-parameter -Wno-unused-variable \
-	-O1 -mno-relax\
+	-Os -mno-relax\
 	-DFEATURE_CLUSTER=0 -D__PULP__=1 -DDEBUG \
     -Wstack-usage=1024
 
@@ -21,7 +21,7 @@ CONFIG_CLUSTER=n
 include $(FREERTOS_PROJ_ROOT)/default_srcs.mk
 
 # application name
-PROG = freertos_omp
+PROG = freertos_simple_offloading
 
 # application/user specific code
 USER_SRCS = main.c sw_mailbox.c
@@ -47,4 +47,5 @@ include $(FREERTOS_PROJ_ROOT)/default_targets.mk
 archive_app: $(OBJS)
 	mkdir -p build
 	riscv32-unknown-elf-ar rcs build/libomptarget_freertos_runtime.a $(OBJS)
-	riscv32-unknown-elf-strip -x build/libomptarget_freertos_runtime.a -o build/libomptarget_freertos_runtime.a
+
+

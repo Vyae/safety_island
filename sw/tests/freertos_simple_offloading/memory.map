@@ -1,0 +1,2029 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+                              target/safety-island/system.o (abort)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+                              drivers/clic2.o (__assert_func)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+                              target/safety-island/crt0.o (atexit)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+                              target/safety-island/crt0.o (exit)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+                              target/safety-island/crt0.o (__libc_fini_array)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o) (fiprintf)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+                              target/safety-island/crt0.o (__libc_init_array)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+                              kernel/queue.o (memcpy)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+                              kernel/stream_buffer.o (memset)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o) (_vfprintf_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+                              kernel/event_groups.o (printf)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                              target/safety-island/vectors.o (puts)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+                              kernel/tasks.o (_reclaim_reent)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o) (raise)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o) (_kill_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+                              kernel/tasks.o (strlen)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (__swbuf_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (__swsetup_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o) (__register_exitproc)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o) (_fflush_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (__sinit)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o) (_fwalk)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o) (__smakebuf_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (memchr)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memmove.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o) (memmove)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o) (__sread)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o) (_write_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o) (_close_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o) (_fstat_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o) (_isatty_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o) (_lseek_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o) (_read_r)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+                              kernel/tasks.o (__clzsi2)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+                              drivers/uart_chs.o (__udivdi3)
+/usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+                              /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o) (__clz_tab)
+
+Allocating common symbols
+Common symbol       size              file
+
+nb_offload_funcs    0x4               main.o
+offload_func_table  0x4               main.o
+errno               0x4               /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+g_a2h_mbox          0x4               sw_mailbox.o
+xQueueRegistry      0x40              kernel/queue.o
+offload_var_table   0x4               main.o
+g_h2a_mbox          0x4               sw_mailbox.o
+isr_table           0x400             target/safety-island/system.o
+nb_offload_vars     0x4               main.o
+g_a2h_rb            0x4               sw_mailbox.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 kernel/event_groups.o
+ .data          0x0000000000000000        0x0 kernel/event_groups.o
+ .bss           0x0000000000000000        0x0 kernel/event_groups.o
+ .text.xEventGroupCreate
+                0x0000000000000000       0x2c kernel/event_groups.o
+ .rodata.xEventGroupWaitBits.str1.4
+                0x0000000000000000       0xd2 kernel/event_groups.o
+ .text.xEventGroupWaitBits
+                0x0000000000000000      0x176 kernel/event_groups.o
+ .rodata.xEventGroupClearBits.str1.4
+                0x0000000000000000       0x37 kernel/event_groups.o
+ .text.xEventGroupClearBits
+                0x0000000000000000       0x7a kernel/event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x0000000000000000        0x8 kernel/event_groups.o
+ .text.xEventGroupClearBitsFromISR
+                0x0000000000000000       0x16 kernel/event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x0000000000000000        0x4 kernel/event_groups.o
+ .rodata.xEventGroupSetBits.str1.4
+                0x0000000000000000       0x35 kernel/event_groups.o
+ .text.xEventGroupSetBits
+                0x0000000000000000       0xde kernel/event_groups.o
+ .text.xEventGroupSync
+                0x0000000000000000      0x13e kernel/event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x0000000000000000        0x8 kernel/event_groups.o
+ .rodata.vEventGroupDelete.str1.4
+                0x0000000000000000       0x66 kernel/event_groups.o
+ .text.vEventGroupDelete
+                0x0000000000000000       0x66 kernel/event_groups.o
+ .text.xEventGroupSetBitsFromISR
+                0x0000000000000000       0x16 kernel/event_groups.o
+ .text.uxEventGroupGetNumber
+                0x0000000000000000        0xa kernel/event_groups.o
+ .text.vEventGroupSetNumber
+                0x0000000000000000        0x4 kernel/event_groups.o
+ .debug_info    0x0000000000000000     0x176f kernel/event_groups.o
+ .debug_abbrev  0x0000000000000000      0x41b kernel/event_groups.o
+ .debug_loc     0x0000000000000000      0xec1 kernel/event_groups.o
+ .debug_aranges
+                0x0000000000000000       0x80 kernel/event_groups.o
+ .debug_ranges  0x0000000000000000       0xc0 kernel/event_groups.o
+ .debug_line    0x0000000000000000     0x1107 kernel/event_groups.o
+ .debug_str     0x0000000000000000      0xb17 kernel/event_groups.o
+ .comment       0x0000000000000000       0x29 kernel/event_groups.o
+ .debug_frame   0x0000000000000000      0x194 kernel/event_groups.o
+ .riscv.attributes
+                0x0000000000000000       0x2b kernel/event_groups.o
+ .text          0x0000000000000000        0x0 kernel/list.o
+ .data          0x0000000000000000        0x0 kernel/list.o
+ .bss           0x0000000000000000        0x0 kernel/list.o
+ .text          0x0000000000000000        0x0 kernel/queue.o
+ .data          0x0000000000000000        0x0 kernel/queue.o
+ .bss           0x0000000000000000        0x0 kernel/queue.o
+ .text.xQueueGetMutexHolder
+                0x0000000000000000       0x2c kernel/queue.o
+ .rodata.xQueueGetMutexHolderFromISR.str1.4
+                0x0000000000000000        0xb kernel/queue.o
+ .text.xQueueGetMutexHolderFromISR
+                0x0000000000000000       0x30 kernel/queue.o
+ .rodata.xQueueCreateCountingSemaphore.str1.4
+                0x0000000000000000       0x2d kernel/queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x0000000000000000       0x62 kernel/queue.o
+ .text.xQueueCreateMutex
+                0x0000000000000000       0x5a kernel/queue.o
+ .rodata.xQueueGiveMutexRecursive.str1.4
+                0x0000000000000000        0x8 kernel/queue.o
+ .text.xQueueGiveMutexRecursive
+                0x0000000000000000       0x66 kernel/queue.o
+ .rodata.xQueueGiveFromISR.str1.4
+                0x0000000000000000       0x83 kernel/queue.o
+ .text.xQueueGiveFromISR
+                0x0000000000000000       0xc0 kernel/queue.o
+ .rodata.xQueueSemaphoreTake.str1.4
+                0x0000000000000000       0x20 kernel/queue.o
+ .text.xQueueSemaphoreTake
+                0x0000000000000000      0x214 kernel/queue.o
+ .text.xQueueTakeMutexRecursive
+                0x0000000000000000       0x62 kernel/queue.o
+ .text.xQueuePeek
+                0x0000000000000000      0x1a6 kernel/queue.o
+ .rodata.xQueueReceiveFromISR.str1.4
+                0x0000000000000000       0x4b kernel/queue.o
+ .text.xQueueReceiveFromISR
+                0x0000000000000000       0xbe kernel/queue.o
+ .rodata.xQueuePeekFromISR.str1.4
+                0x0000000000000000       0x19 kernel/queue.o
+ .text.xQueuePeekFromISR
+                0x0000000000000000       0x8e kernel/queue.o
+ .rodata.uxQueueMessagesWaiting.str1.4
+                0x0000000000000000        0x7 kernel/queue.o
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x46 kernel/queue.o
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x4a kernel/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000       0x28 kernel/queue.o
+ .text.uxQueueGetQueueNumber
+                0x0000000000000000        0x4 kernel/queue.o
+ .text.vQueueSetQueueNumber
+                0x0000000000000000        0x4 kernel/queue.o
+ .text.ucQueueGetQueueType
+                0x0000000000000000        0x6 kernel/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000       0x2c kernel/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000       0x30 kernel/queue.o
+ .text.pcQueueGetName
+                0x0000000000000000       0x2a kernel/queue.o
+ .text.vQueueUnregisterQueue
+                0x0000000000000000       0x2e kernel/queue.o
+ .text.vQueueDelete
+                0x0000000000000000       0x40 kernel/queue.o
+ .text          0x0000000000000000        0x0 kernel/stream_buffer.o
+ .data          0x0000000000000000        0x0 kernel/stream_buffer.o
+ .bss           0x0000000000000000        0x0 kernel/stream_buffer.o
+ .text.prvBytesInBuffer
+                0x0000000000000000       0x14 kernel/stream_buffer.o
+ .rodata.prvReadBytesFromBuffer.str1.4
+                0x0000000000000000       0x84 kernel/stream_buffer.o
+ .text.prvReadBytesFromBuffer
+                0x0000000000000000       0xe4 kernel/stream_buffer.o
+ .rodata.prvInitialiseNewStreamBuffer.str1.4
+                0x0000000000000000       0x48 kernel/stream_buffer.o
+ .text.prvInitialiseNewStreamBuffer
+                0x0000000000000000       0x78 kernel/stream_buffer.o
+ .rodata.prvWriteBytesToBuffer.part.0.str1.4
+                0x0000000000000000       0x6d kernel/stream_buffer.o
+ .text.prvWriteBytesToBuffer.part.0
+                0x0000000000000000       0xaa kernel/stream_buffer.o
+ .rodata.prvWriteMessageToBuffer.str1.4
+                0x0000000000000000       0x16 kernel/stream_buffer.o
+ .text.prvWriteMessageToBuffer
+                0x0000000000000000       0x72 kernel/stream_buffer.o
+ .rodata.xStreamBufferGenericCreate.str1.4
+                0x0000000000000000       0x73 kernel/stream_buffer.o
+ .text.xStreamBufferGenericCreate
+                0x0000000000000000       0xb2 kernel/stream_buffer.o
+ .rodata.vStreamBufferDelete.str1.4
+                0x0000000000000000        0xf kernel/stream_buffer.o
+ .text.vStreamBufferDelete
+                0x0000000000000000       0x42 kernel/stream_buffer.o
+ .text.xStreamBufferReset
+                0x0000000000000000       0x6c kernel/stream_buffer.o
+ .text.xStreamBufferSetTriggerLevel
+                0x0000000000000000       0x38 kernel/stream_buffer.o
+ .text.xStreamBufferSpacesAvailable
+                0x0000000000000000       0x3a kernel/stream_buffer.o
+ .text.xStreamBufferBytesAvailable
+                0x0000000000000000       0x2c kernel/stream_buffer.o
+ .rodata.xStreamBufferSend.str1.4
+                0x0000000000000000       0x5b kernel/stream_buffer.o
+ .text.xStreamBufferSend
+                0x0000000000000000      0x186 kernel/stream_buffer.o
+ .text.xStreamBufferSendFromISR
+                0x0000000000000000       0xba kernel/stream_buffer.o
+ .rodata.xStreamBufferReceive.str1.4
+                0x0000000000000000       0x3a kernel/stream_buffer.o
+ .text.xStreamBufferReceive
+                0x0000000000000000      0x162 kernel/stream_buffer.o
+ .rodata.xStreamBufferNextMessageLengthBytes.str1.4
+                0x0000000000000000       0x15 kernel/stream_buffer.o
+ .text.xStreamBufferNextMessageLengthBytes
+                0x0000000000000000       0x84 kernel/stream_buffer.o
+ .text.xStreamBufferReceiveFromISR
+                0x0000000000000000       0xdc kernel/stream_buffer.o
+ .text.xStreamBufferIsEmpty
+                0x0000000000000000       0x30 kernel/stream_buffer.o
+ .text.xStreamBufferIsFull
+                0x0000000000000000       0x46 kernel/stream_buffer.o
+ .text.xStreamBufferSendCompletedFromISR
+                0x0000000000000000       0x4e kernel/stream_buffer.o
+ .text.xStreamBufferReceiveCompletedFromISR
+                0x0000000000000000       0x4e kernel/stream_buffer.o
+ .text.uxStreamBufferGetStreamBufferNumber
+                0x0000000000000000        0x4 kernel/stream_buffer.o
+ .text.vStreamBufferSetStreamBufferNumber
+                0x0000000000000000        0x4 kernel/stream_buffer.o
+ .text.ucStreamBufferGetStreamBufferType
+                0x0000000000000000        0x8 kernel/stream_buffer.o
+ .debug_info    0x0000000000000000     0x24fa kernel/stream_buffer.o
+ .debug_abbrev  0x0000000000000000      0x496 kernel/stream_buffer.o
+ .debug_loc     0x0000000000000000     0x1ba1 kernel/stream_buffer.o
+ .debug_aranges
+                0x0000000000000000       0xd0 kernel/stream_buffer.o
+ .debug_ranges  0x0000000000000000      0x1c0 kernel/stream_buffer.o
+ .debug_line    0x0000000000000000     0x2100 kernel/stream_buffer.o
+ .debug_str     0x0000000000000000      0xd22 kernel/stream_buffer.o
+ .comment       0x0000000000000000       0x29 kernel/stream_buffer.o
+ .debug_frame   0x0000000000000000      0x334 kernel/stream_buffer.o
+ .riscv.attributes
+                0x0000000000000000       0x2b kernel/stream_buffer.o
+ .text          0x0000000000000000        0x0 kernel/tasks.o
+ .data          0x0000000000000000        0x0 kernel/tasks.o
+ .bss           0x0000000000000000        0x0 kernel/tasks.o
+ .text.prvSearchForNameWithinSingleList
+                0x0000000000000000       0x5a kernel/tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x0000000000000000       0x4a kernel/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000        0xe kernel/tasks.o
+ .rodata.xTaskResumeFromISR.str1.4
+                0x0000000000000000        0xe kernel/tasks.o
+ .text.xTaskResumeFromISR
+                0x0000000000000000       0xb8 kernel/tasks.o
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x14 kernel/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000        0xa kernel/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000        0xa kernel/tasks.o
+ .rodata.pcTaskGetName.str1.4
+                0x0000000000000000        0x6 kernel/tasks.o
+ .text.pcTaskGetName
+                0x0000000000000000       0x34 kernel/tasks.o
+ .rodata.vTaskPlaceOnUnorderedEventList.str1.4
+                0x0000000000000000       0x1a kernel/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000       0x80 kernel/tasks.o
+ .rodata.vTaskRemoveFromUnorderedEventList.str1.4
+                0x0000000000000000       0x20 kernel/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000       0xc4 kernel/tasks.o
+ .text.uxTaskGetTaskNumber
+                0x0000000000000000        0xa kernel/tasks.o
+ .text.vTaskSetTaskNumber
+                0x0000000000000000        0x6 kernel/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000        0xa kernel/tasks.o
+ .text.xTaskPriorityInherit
+                0x0000000000000000       0xc4 kernel/tasks.o
+ .rodata.vTaskPriorityDisinheritAfterTimeout.str1.4
+                0x0000000000000000       0x16 kernel/tasks.o
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x0000000000000000       0xf4 kernel/tasks.o
+ .text.eTaskGetState
+                0x0000000000000000       0xaa kernel/tasks.o
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x30 kernel/tasks.o
+ .rodata.vTaskPrioritySet.str1.4
+                0x0000000000000000       0x29 kernel/tasks.o
+ .text.vTaskPrioritySet
+                0x0000000000000000       0xee kernel/tasks.o
+ .text.vTaskSuspend
+                0x0000000000000000      0x13a kernel/tasks.o
+ .text.vTaskResume
+                0x0000000000000000       0xa8 kernel/tasks.o
+ .rodata.vTaskDelayUntil.str1.4
+                0x0000000000000000       0x2c kernel/tasks.o
+ .text.vTaskDelayUntil
+                0x0000000000000000       0xc2 kernel/tasks.o
+ .text.vTaskDelay
+                0x0000000000000000       0x5e kernel/tasks.o
+ .rodata.xTaskGetHandle.str1.4
+                0x0000000000000000       0x32 kernel/tasks.o
+ .text.xTaskGetHandle
+                0x0000000000000000       0xda kernel/tasks.o
+ .text.xTaskCatchUpTicks
+                0x0000000000000000       0x56 kernel/tasks.o
+ .text.vTaskGetInfo
+                0x0000000000000000       0xb0 kernel/tasks.o
+ .text.prvListTasksWithinSingleList
+                0x0000000000000000       0x84 kernel/tasks.o
+ .text.uxTaskGetSystemState
+                0x0000000000000000       0xf0 kernel/tasks.o
+ .text.xTaskAbortDelay
+                0x0000000000000000       0xbe kernel/tasks.o
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x52 kernel/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x1a kernel/tasks.o
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000000000000000       0x1c kernel/tasks.o
+ .text.ulTaskNotifyTake
+                0x0000000000000000       0x8c kernel/tasks.o
+ .text.xTaskNotifyWait
+                0x0000000000000000       0xc6 kernel/tasks.o
+ .rodata.xTaskGenericNotify.str1.4
+                0x0000000000000000       0x6e kernel/tasks.o
+ .text.xTaskGenericNotify
+                0x0000000000000000      0x13c kernel/tasks.o
+ .rodata.xTaskGenericNotify
+                0x0000000000000000       0x14 kernel/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x154 kernel/tasks.o
+ .rodata.xTaskGenericNotifyFromISR
+                0x0000000000000000       0x14 kernel/tasks.o
+ .text.vTaskNotifyGiveFromISR
+                0x0000000000000000       0xf4 kernel/tasks.o
+ .text.xTaskNotifyStateClear
+                0x0000000000000000       0x44 kernel/tasks.o
+ .text.ulTaskNotifyValueClear
+                0x0000000000000000       0x52 kernel/tasks.o
+ .text          0x0000000000000000        0x0 kernel/timers.o
+ .data          0x0000000000000000        0x0 kernel/timers.o
+ .bss           0x0000000000000000        0x0 kernel/timers.o
+ .rodata.xTimerCreate.str1.4
+                0x0000000000000000       0x1c kernel/timers.o
+ .text.xTimerCreate
+                0x0000000000000000       0x94 kernel/timers.o
+ .rodata.xTimerGetTimerDaemonTaskHandle.str1.4
+                0x0000000000000000       0x1d kernel/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x0000000000000000       0x2e kernel/timers.o
+ .text.xTimerGetPeriod
+                0x0000000000000000       0x28 kernel/timers.o
+ .text.vTimerSetReloadMode
+                0x0000000000000000       0x5a kernel/timers.o
+ .text.uxTimerGetReloadMode
+                0x0000000000000000       0x4c kernel/timers.o
+ .text.xTimerGetExpiryTime
+                0x0000000000000000       0x28 kernel/timers.o
+ .text.pcTimerGetName
+                0x0000000000000000       0x28 kernel/timers.o
+ .text.xTimerIsTimerActive
+                0x0000000000000000       0x4a kernel/timers.o
+ .text.pvTimerGetTimerID
+                0x0000000000000000       0x46 kernel/timers.o
+ .text.vTimerSetTimerID
+                0x0000000000000000       0x46 kernel/timers.o
+ .text.xTimerPendFunctionCallFromISR
+                0x0000000000000000       0x2c kernel/timers.o
+ .rodata.xTimerPendFunctionCall.str1.4
+                0x0000000000000000        0xc kernel/timers.o
+ .text.xTimerPendFunctionCall
+                0x0000000000000000       0x4e kernel/timers.o
+ .text.uxTimerGetTimerNumber
+                0x0000000000000000        0x4 kernel/timers.o
+ .text.vTimerSetTimerNumber
+                0x0000000000000000        0x4 kernel/timers.o
+ .text          0x0000000000000000        0x0 kernel/portable/GCC/RISC-V/port.o
+ .data          0x0000000000000000        0x0 kernel/portable/GCC/RISC-V/port.o
+ .bss           0x0000000000000000        0x0 kernel/portable/GCC/RISC-V/port.o
+ .text.vPortEndScheduler
+                0x0000000000000000        0x2 kernel/portable/GCC/RISC-V/port.o
+ .sbss.pullMachineTimerCompareRegister
+                0x0000000000000000        0x4 kernel/portable/GCC/RISC-V/port.o
+ .sbss.ullNextTime
+                0x0000000000000000        0x8 kernel/portable/GCC/RISC-V/port.o
+ .sdata.pullNextTime
+                0x0000000000000000        0x4 kernel/portable/GCC/RISC-V/port.o
+ .sdata2.ullMachineTimerCompareRegisterBase
+                0x0000000000000000        0x4 kernel/portable/GCC/RISC-V/port.o
+ .sdata2.uxTimerIncrementsForOneTick
+                0x0000000000000000        0x4 kernel/portable/GCC/RISC-V/port.o
+ .data          0x0000000000000000        0x0 kernel/portable/GCC/RISC-V/portASM.o
+ .bss           0x0000000000000000        0x0 kernel/portable/GCC/RISC-V/portASM.o
+ .text          0x0000000000000000        0x0 kernel/portable/MemMang/heap_4.o
+ .data          0x0000000000000000        0x0 kernel/portable/MemMang/heap_4.o
+ .bss           0x0000000000000000        0x0 kernel/portable/MemMang/heap_4.o
+ .text.pvPortRealloc
+                0x0000000000000000       0x60 kernel/portable/MemMang/heap_4.o
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000        0xa kernel/portable/MemMang/heap_4.o
+ .text.xPortGetMinimumEverFreeHeapSize
+                0x0000000000000000        0xa kernel/portable/MemMang/heap_4.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000        0x2 kernel/portable/MemMang/heap_4.o
+ .text.vPortGetHeapStats
+                0x0000000000000000       0xa2 kernel/portable/MemMang/heap_4.o
+ .text          0x0000000000000000        0x0 libc/syscalls.o
+ .data          0x0000000000000000        0x0 libc/syscalls.o
+ .bss           0x0000000000000000        0x0 libc/syscalls.o
+ .text.nanosleep
+                0x0000000000000000       0x10 libc/syscalls.o
+ .text._access  0x0000000000000000       0x10 libc/syscalls.o
+ .text._chdir   0x0000000000000000       0x10 libc/syscalls.o
+ .text._chmod   0x0000000000000000       0x10 libc/syscalls.o
+ .text._chown   0x0000000000000000       0x10 libc/syscalls.o
+ .text._execve  0x0000000000000000        0xe libc/syscalls.o
+ .text._faccessat
+                0x0000000000000000       0x10 libc/syscalls.o
+ .text._fork    0x0000000000000000        0xe libc/syscalls.o
+ .text._fstatat
+                0x0000000000000000       0x10 libc/syscalls.o
+ .text._ftime   0x0000000000000000       0x10 libc/syscalls.o
+ .text._getcwd  0x0000000000000000       0x10 libc/syscalls.o
+ .text._gettimeofday
+                0x0000000000000000       0x10 libc/syscalls.o
+ .text._link    0x0000000000000000        0xe libc/syscalls.o
+ .text._lstat   0x0000000000000000       0x10 libc/syscalls.o
+ .text._open    0x0000000000000000        0x4 libc/syscalls.o
+ .text._openat  0x0000000000000000       0x10 libc/syscalls.o
+ .text._stat    0x0000000000000000        0x8 libc/syscalls.o
+ .text._sysconf
+                0x0000000000000000        0x4 libc/syscalls.o
+ .text._times   0x0000000000000000        0x4 libc/syscalls.o
+ .text._unlink  0x0000000000000000        0xe libc/syscalls.o
+ .text._utime   0x0000000000000000       0x10 libc/syscalls.o
+ .text._wait    0x0000000000000000        0xe libc/syscalls.o
+ .rodata.unimplemented_syscall.str1.4
+                0x0000000000000000       0x23 libc/syscalls.o
+ .text.unimplemented_syscall
+                0x0000000000000000       0x16 libc/syscalls.o
+ .text._brk     0x0000000000000000        0xc libc/syscalls.o
+ .text._sbrk    0x0000000000000000       0x2c libc/syscalls.o
+ .text.__malloc_lock
+                0x0000000000000000        0x8 libc/syscalls.o
+ .text.__malloc_unlock
+                0x0000000000000000        0x8 libc/syscalls.o
+ .text.malloc   0x0000000000000000        0x8 libc/syscalls.o
+ .text.free     0x0000000000000000        0x8 libc/syscalls.o
+ .text._realloc_r
+                0x0000000000000000        0xc libc/syscalls.o
+ .text._calloc_r
+                0x0000000000000000       0x2e libc/syscalls.o
+ .sdata.brk     0x0000000000000000        0x4 libc/syscalls.o
+ .text          0x0000000000000000        0x0 libc/pulp_malloc.o
+ .data          0x0000000000000000        0x0 libc/pulp_malloc.o
+ .bss           0x0000000000000000        0x0 libc/pulp_malloc.o
+ .text.pi_l2_malloc
+                0x0000000000000000        0x8 libc/pulp_malloc.o
+ .text.pi_l2_free
+                0x0000000000000000        0x8 libc/pulp_malloc.o
+ .debug_info    0x0000000000000000      0x9ca libc/pulp_malloc.o
+ .debug_abbrev  0x0000000000000000      0x22d libc/pulp_malloc.o
+ .debug_loc     0x0000000000000000       0x63 libc/pulp_malloc.o
+ .debug_aranges
+                0x0000000000000000       0x28 libc/pulp_malloc.o
+ .debug_ranges  0x0000000000000000       0x18 libc/pulp_malloc.o
+ .debug_line    0x0000000000000000      0x1cc libc/pulp_malloc.o
+ .debug_str     0x0000000000000000      0x63a libc/pulp_malloc.o
+ .comment       0x0000000000000000       0x29 libc/pulp_malloc.o
+ .debug_frame   0x0000000000000000       0x30 libc/pulp_malloc.o
+ .riscv.attributes
+                0x0000000000000000       0x2b libc/pulp_malloc.o
+ .text          0x0000000000000000        0x0 target/safety-island/crt0.o
+ .data          0x0000000000000000        0x0 target/safety-island/crt0.o
+ .bss           0x0000000000000000        0x0 target/safety-island/crt0.o
+ .text          0x0000000000000000        0x0 target/safety-island/system.o
+ .data          0x0000000000000000        0x0 target/safety-island/system.o
+ .bss           0x0000000000000000        0x0 target/safety-island/system.o
+ .text.system_core_clock_update
+                0x0000000000000000       0x12 target/safety-island/system.o
+ .text.system_core_clock_get
+                0x0000000000000000       0x16 target/safety-island/system.o
+ .text.unlikely.undefined_handler
+                0x0000000000000000        0xc target/safety-island/system.o
+ .text.irq_global_disable
+                0x0000000000000000        0x6 target/safety-island/system.o
+ .text.irq_global_enable
+                0x0000000000000000        0x6 target/safety-island/system.o
+ .text.irq_clint_disable
+                0x0000000000000000        0xc target/safety-island/system.o
+ .text.irq_clint_enable
+                0x0000000000000000        0xc target/safety-island/system.o
+ .sdata.system_core_clock
+                0x0000000000000000        0x4 target/safety-island/system.o
+ .text          0x0000000000000000        0x0 target/safety-island/vectors.o
+ .data          0x0000000000000000        0x0 target/safety-island/vectors.o
+ .bss           0x0000000000000000        0x0 target/safety-island/vectors.o
+ .text.vecs     0x0000000000000000       0x88 target/safety-island/vectors.o
+ .rodata        0x0000000000000000       0xb5 target/safety-island/vectors.o
+ .text          0x0000000000000000        0x0 drivers/uart_chs.o
+ .data          0x0000000000000000        0x0 drivers/uart_chs.o
+ .bss           0x0000000000000000        0x0 drivers/uart_chs.o
+ .text.uart_init
+                0x0000000000000000       0x5e drivers/uart_chs.o
+ .text.uart_read_ready
+                0x0000000000000000        0x8 drivers/uart_chs.o
+ .text.uart_read
+                0x0000000000000000       0x12 drivers/uart_chs.o
+ .text.uart_read_str
+                0x0000000000000000       0x34 drivers/uart_chs.o
+ .text          0x0000000000000000        0x0 drivers/clkconst.o
+ .data          0x0000000000000000        0x0 drivers/clkconst.o
+ .bss           0x0000000000000000        0x0 drivers/clkconst.o
+ .text.pi_freq_get
+                0x0000000000000000       0x24 drivers/clkconst.o
+ .text.pi_freq_set
+                0x0000000000000000        0x4 drivers/clkconst.o
+ .debug_info    0x0000000000000000      0x129 drivers/clkconst.o
+ .debug_abbrev  0x0000000000000000       0xb1 drivers/clkconst.o
+ .debug_loc     0x0000000000000000       0x55 drivers/clkconst.o
+ .debug_aranges
+                0x0000000000000000       0x28 drivers/clkconst.o
+ .debug_ranges  0x0000000000000000       0x18 drivers/clkconst.o
+ .debug_line    0x0000000000000000      0x1f2 drivers/clkconst.o
+ .debug_str     0x0000000000000000      0x296 drivers/clkconst.o
+ .comment       0x0000000000000000       0x29 drivers/clkconst.o
+ .debug_frame   0x0000000000000000       0x30 drivers/clkconst.o
+ .riscv.attributes
+                0x0000000000000000       0x2b drivers/clkconst.o
+ .text          0x0000000000000000        0x0 drivers/timer_irq.o
+ .data          0x0000000000000000        0x0 drivers/timer_irq.o
+ .bss           0x0000000000000000        0x0 drivers/timer_irq.o
+ .text.timer_irq_set_timeout
+                0x0000000000000000       0x14 drivers/timer_irq.o
+ .text.timer_irq_clock_elapsed
+                0x0000000000000000        0x4 drivers/timer_irq.o
+ .text.timer_irq_cycle_get_32
+                0x0000000000000000        0xa drivers/timer_irq.o
+ .text          0x0000000000000000        0x0 drivers/timer.o
+ .data          0x0000000000000000        0x0 drivers/timer.o
+ .bss           0x0000000000000000        0x0 drivers/timer.o
+ .text.start_timer
+                0x0000000000000000       0x10 drivers/timer.o
+ .text          0x0000000000000000        0x0 drivers/clic2.o
+ .data          0x0000000000000000        0x0 drivers/clic2.o
+ .bss           0x0000000000000000        0x0 drivers/clic2.o
+ .text.irq_set_handler
+                0x0000000000000000       0x40 drivers/clic2.o
+ .text.irq_disable
+                0x0000000000000000       0x4a drivers/clic2.o
+ .text.irq_pend
+                0x0000000000000000       0x46 drivers/clic2.o
+ .text.irq_clear
+                0x0000000000000000       0x44 drivers/clic2.o
+ .rodata.__func__.1558
+                0x0000000000000000       0x10 drivers/clic2.o
+ .rodata.__func__.1562
+                0x0000000000000000        0xc drivers/clic2.o
+ .rodata.__func__.1566
+                0x0000000000000000        0x9 drivers/clic2.o
+ .rodata.__func__.1570
+                0x0000000000000000        0xa drivers/clic2.o
+ .text          0x0000000000000000        0x0 drivers/pmsis_task.o
+ .data          0x0000000000000000        0x0 drivers/pmsis_task.o
+ .bss           0x0000000000000000        0x0 drivers/pmsis_task.o
+ .text.__os_native_api_sem_give
+                0x0000000000000000       0x3e drivers/pmsis_task.o
+ .text.__os_native_api_sem_take
+                0x0000000000000000       0x36 drivers/pmsis_task.o
+ .text.__pi_task_block
+                0x0000000000000000       0x4c drivers/pmsis_task.o
+ .text.__pi_task_callback
+                0x0000000000000000       0x1c drivers/pmsis_task.o
+ .text.__pi_task_destroy
+                0x0000000000000000       0x38 drivers/pmsis_task.o
+ .text.__pi_task_wait_on
+                0x0000000000000000       0x12 drivers/pmsis_task.o
+ .text.pi_task_callback_no_mutex
+                0x0000000000000000       0x1c drivers/pmsis_task.o
+ .text.pi_task_block_no_mutex
+                0x0000000000000000       0x18 drivers/pmsis_task.o
+ .text.pi_task_release
+                0x0000000000000000       0x1e drivers/pmsis_task.o
+ .text.pi_cl_pi_task_wait
+                0x0000000000000000        0x2 drivers/pmsis_task.o
+ .text.pi_cl_pi_task_notify_done
+                0x0000000000000000        0x2 drivers/pmsis_task.o
+ .text.pi_task_wait_on_no_mutex
+                0x0000000000000000       0x10 drivers/pmsis_task.o
+ .text.pi_task_push_delayed_us
+                0x0000000000000000       0x3e drivers/pmsis_task.o
+ .text.__pi_task_push
+                0x0000000000000000        0xa drivers/pmsis_task.o
+ .debug_info    0x0000000000000000     0x13a8 drivers/pmsis_task.o
+ .debug_abbrev  0x0000000000000000      0x48d drivers/pmsis_task.o
+ .debug_loc     0x0000000000000000      0x3a5 drivers/pmsis_task.o
+ .debug_aranges
+                0x0000000000000000       0x78 drivers/pmsis_task.o
+ .debug_ranges  0x0000000000000000      0x118 drivers/pmsis_task.o
+ .debug_line    0x0000000000000000      0xbe5 drivers/pmsis_task.o
+ .debug_str     0x0000000000000000      0x9bb drivers/pmsis_task.o
+ .comment       0x0000000000000000       0x29 drivers/pmsis_task.o
+ .debug_frame   0x0000000000000000      0x158 drivers/pmsis_task.o
+ .riscv.attributes
+                0x0000000000000000       0x2b drivers/pmsis_task.o
+ .text          0x0000000000000000        0x0 drivers/device.o
+ .data          0x0000000000000000        0x0 drivers/device.o
+ .bss           0x0000000000000000        0x0 drivers/device.o
+ .text.pi_open_from_conf
+                0x0000000000000000        0x4 drivers/device.o
+ .debug_info    0x0000000000000000      0x3cf drivers/device.o
+ .debug_abbrev  0x0000000000000000       0xe0 drivers/device.o
+ .debug_aranges
+                0x0000000000000000       0x20 drivers/device.o
+ .debug_ranges  0x0000000000000000       0x10 drivers/device.o
+ .debug_line    0x0000000000000000      0x1cb drivers/device.o
+ .debug_str     0x0000000000000000      0x36d drivers/device.o
+ .comment       0x0000000000000000       0x29 drivers/device.o
+ .debug_frame   0x0000000000000000       0x20 drivers/device.o
+ .riscv.attributes
+                0x0000000000000000       0x2b drivers/device.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .text.free_mailbox
+                0x0000000000000000       0x6a main.o
+ .text.find_mailbox
+                0x0000000000000000       0x42 main.o
+ .text.send_to_host
+                0x0000000000000000       0x76 main.o
+ .text.receive_from_host
+                0x0000000000000000       0x94 main.o
+ .rodata.offload_task_wrapper.str1.4
+                0x0000000000000000       0x65 main.o
+ .text.offload_task_wrapper
+                0x0000000000000000       0xda main.o
+ .sbss.done     0x0000000000000000        0x4 main.o
+ .sbss.iters    0x0000000000000000        0x4 main.o
+ .sbss.mailboxes
+                0x0000000000000000        0x4 main.o
+ COMMON         0x0000000000000000       0x10 main.o
+ .text          0x0000000000000000        0x0 sw_mailbox.o
+ .data          0x0000000000000000        0x0 sw_mailbox.o
+ .bss           0x0000000000000000        0x0 sw_mailbox.o
+ .text.csleep   0x0000000000000000       0x30 sw_mailbox.o
+ .text.syscall  0x0000000000000000       0x66 sw_mailbox.o
+ .text.snrt_putchar
+                0x0000000000000000       0x32 sw_mailbox.o
+ .text.snrt_hero_exit
+                0x0000000000000000       0x32 sw_mailbox.o
+ .text.mailbox_try_read
+                0x0000000000000000       0x50 sw_mailbox.o
+ .text.mailbox_read
+                0x0000000000000000       0x60 sw_mailbox.o
+ .text.mailbox_write
+                0x0000000000000000       0x3a sw_mailbox.o
+ .text.rb_device_put
+                0x0000000000000000       0x46 sw_mailbox.o
+ .debug_info    0x0000000000000000      0xdca sw_mailbox.o
+ .debug_abbrev  0x0000000000000000      0x362 sw_mailbox.o
+ .debug_loc     0x0000000000000000      0x393 sw_mailbox.o
+ .debug_aranges
+                0x0000000000000000       0x58 sw_mailbox.o
+ .debug_ranges  0x0000000000000000       0xc0 sw_mailbox.o
+ .debug_line    0x0000000000000000      0x81d sw_mailbox.o
+ .debug_str     0x0000000000000000      0x719 sw_mailbox.o
+ .comment       0x0000000000000000       0x29 sw_mailbox.o
+ .debug_frame   0x0000000000000000       0xec sw_mailbox.o
+ .riscv.attributes
+                0x0000000000000000       0x2b sw_mailbox.o
+ COMMON         0x0000000000000000        0xc sw_mailbox.o
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .text.__assert
+                0x0000000000000000       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .text._fprintf_r
+                0x0000000000000000       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sprint_r
+                0x0000000000000000       0x2c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.vfprintf
+                0x0000000000000000       0x16 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .text._printf_r
+                0x0000000000000000       0x42 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text._init_signal_r
+                0x0000000000000000       0x3e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text._signal_r
+                0x0000000000000000       0x46 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text.__sigtramp_r
+                0x0000000000000000       0x5a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text.signal   0x0000000000000000       0x14 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text._init_signal
+                0x0000000000000000       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text.__sigtramp
+                0x0000000000000000       0x12 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000000000       0x12 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x0000000000000000       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-strlen.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .text.__swbuf  0x0000000000000000       0x14 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .sdata.__atexit_dummy
+                0x0000000000000000        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .text.fflush   0x0000000000000000       0x2c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock
+                0x0000000000000000        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock
+                0x0000000000000000        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text._cleanup
+                0x0000000000000000       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x0000000000000000        0x2 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__sfp_lock_release
+                0x0000000000000000        0x2 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_acquire
+                0x0000000000000000        0x2 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__sinit_lock_release
+                0x0000000000000000        0x2 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__fp_lock_all
+                0x0000000000000000       0x18 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text.__fp_unlock_all
+                0x0000000000000000       0x18 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .text.__sfvwrite_r
+                0x0000000000000000      0x316 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .comment       0x0000000000000000       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .riscv.attributes
+                0x0000000000000000       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fvwrite.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .text._fwalk   0x0000000000000000       0x62 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+ .text          0x0000000000000000       0x26 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memmove.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memmove.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memmove.o)
+ .riscv.attributes
+                0x0000000000000000       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memmove.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .text.__seofread
+                0x0000000000000000        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .text          0x0000000000000000      0x366 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .text          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+ .data          0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+ .bss           0x0000000000000000        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+SRAM             0x0000000060000000 0x0000000000020000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD kernel/event_groups.o
+LOAD kernel/list.o
+LOAD kernel/queue.o
+LOAD kernel/stream_buffer.o
+LOAD kernel/tasks.o
+LOAD kernel/timers.o
+LOAD kernel/portable/GCC/RISC-V/port.o
+LOAD kernel/portable/GCC/RISC-V/portASM.o
+LOAD kernel/portable/MemMang/heap_4.o
+LOAD libc/syscalls.o
+LOAD libc/pulp_malloc.o
+LOAD target/safety-island/crt0.o
+LOAD target/safety-island/system.o
+LOAD target/safety-island/vectors.o
+LOAD drivers/uart_chs.o
+LOAD drivers/clkconst.o
+LOAD drivers/timer_irq.o
+LOAD drivers/timer.o
+LOAD drivers/clic2.o
+LOAD drivers/pmsis_task.o
+LOAD drivers/device.o
+LOAD main.o
+LOAD sw_mailbox.o
+LOAD /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a
+LOAD /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libm_nano.a
+LOAD /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a
+                0x0000000060010080                PROVIDE (__boot_address = 0x60010080)
+                0x0000000000000800                __stack_size = DEFINED (__stack_size)?__stack_size:0x800
+                [!provide]                        PROVIDE (__stack_size = __stack_size)
+                0x0000000000000400                __heap_size = DEFINED (__heap_size)?__heap_size:0x400
+                [!provide]                        PROVIDE (__heap_size = __heap_size)
+
+.init
+ *(.init)
+
+.vectors        0x0000000060000400      0x400
+                0x0000000060000400                __irq_vector_base = .
+                0x0000000060000400                __vector_start = .
+ *(.vectors)
+ .vectors       0x0000000060000400      0x400 target/safety-island/vectors.o
+                0x0000000060000400                vector_table
+
+.text           0x0000000060010080     0x3d0c
+                0x0000000060010080                _stext = .
+ *(.text.start)
+ .text.start    0x0000000060010080       0x78 target/safety-island/crt0.o
+                0x0000000060010080                _start
+                0x00000000600100f6                _init
+                0x00000000600100f6                _fini
+ *(.text)
+ .text          0x00000000600100f8      0x5bc kernel/portable/GCC/RISC-V/portASM.o
+                0x0000000060010178                freertos_risc_v_trap_handler
+                0x0000000060010378                freertos_risc_v_ctxt_handler
+                0x0000000060010578                xPortStartFirstTask
+                0x0000000060010678                pxPortInitialiseStack
+ .text          0x00000000600106b4       0x16 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+                0x00000000600106b4                memcpy
+ .text          0x00000000600106ca       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+                0x00000000600106ca                memset
+ .text          0x00000000600106da       0x3c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+                0x00000000600106da                __clzsi2
+ *(.text.*)
+ .text.vListInitialise
+                0x0000000060010716       0x14 kernel/list.o
+                0x0000000060010716                vListInitialise
+ .text.vListInitialiseItem
+                0x000000006001072a        0x6 kernel/list.o
+                0x000000006001072a                vListInitialiseItem
+ .text.vListInsertEnd
+                0x0000000060010730       0x18 kernel/list.o
+                0x0000000060010730                vListInsertEnd
+ .text.vListInsert
+                0x0000000060010748       0x2e kernel/list.o
+                0x0000000060010748                vListInsert
+ .text.uxListRemove
+                0x0000000060010776       0x20 kernel/list.o
+                0x0000000060010776                uxListRemove
+ .text.prvIsQueueEmpty
+                0x0000000060010796       0x26 kernel/queue.o
+ .text.prvCopyDataToQueue
+                0x00000000600107bc       0x96 kernel/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000060010852       0x24 kernel/queue.o
+ .text.prvUnlockQueue
+                0x0000000060010876       0xa2 kernel/queue.o
+ .text.xQueueGenericReset
+                0x0000000060010918       0x9a kernel/queue.o
+                0x0000000060010918                xQueueGenericReset
+ .text.xQueueGenericCreate
+                0x00000000600109b2       0x76 kernel/queue.o
+                0x00000000600109b2                xQueueGenericCreate
+ .text.xQueueGenericSend
+                0x0000000060010a28      0x1ee kernel/queue.o
+                0x0000000060010a28                xQueueGenericSend
+ .text.xQueueGenericSendFromISR
+                0x0000000060010c16       0xe8 kernel/queue.o
+                0x0000000060010c16                xQueueGenericSendFromISR
+ .text.xQueueReceive
+                0x0000000060010cfe      0x1b0 kernel/queue.o
+                0x0000000060010cfe                xQueueReceive
+ .text.vQueueAddToRegistry
+                0x0000000060010eae       0x2c kernel/queue.o
+                0x0000000060010eae                vQueueAddToRegistry
+ .text.vQueueWaitForMessageRestricted
+                0x0000000060010eda       0x6c kernel/queue.o
+                0x0000000060010eda                vQueueWaitForMessageRestricted
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000000060010f46       0xda kernel/tasks.o
+ .text.prvResetNextTaskUnblockTime
+                0x0000000060011020       0x26 kernel/tasks.o
+ .text.vTaskSuspendAll
+                0x0000000060011046       0x10 kernel/tasks.o
+                0x0000000060011046                vTaskSuspendAll
+ .text.xTaskGetTickCount
+                0x0000000060011056        0xa kernel/tasks.o
+                0x0000000060011056                xTaskGetTickCount
+ .text.xTaskIncrementTick
+                0x0000000060011060      0x132 kernel/tasks.o
+                0x0000000060011060                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x0000000060011192       0xe4 kernel/tasks.o
+                0x0000000060011192                vTaskSwitchContext
+ .text.vTaskPlaceOnEventList
+                0x0000000060011276       0x4c kernel/tasks.o
+                0x0000000060011276                vTaskPlaceOnEventList
+ .text.vTaskPlaceOnEventListRestricted
+                0x00000000600112c2       0x56 kernel/tasks.o
+                0x00000000600112c2                vTaskPlaceOnEventListRestricted
+ .text.xTaskRemoveFromEventList
+                0x0000000060011318       0xb6 kernel/tasks.o
+                0x0000000060011318                xTaskRemoveFromEventList
+ .text.vTaskInternalSetTimeOutState
+                0x00000000600113ce       0x16 kernel/tasks.o
+                0x00000000600113ce                vTaskInternalSetTimeOutState
+ .text.vTaskMissedYield
+                0x00000000600113e4        0xc kernel/tasks.o
+                0x00000000600113e4                vTaskMissedYield
+ .text.xTaskGetSchedulerState
+                0x00000000600113f0       0x1c kernel/tasks.o
+                0x00000000600113f0                xTaskGetSchedulerState
+ .text.xTaskPriorityDisinherit
+                0x000000006001140c       0xde kernel/tasks.o
+                0x000000006001140c                xTaskPriorityDisinherit
+ .text.vTaskEnterCritical
+                0x00000000600114ea       0x22 kernel/tasks.o
+                0x00000000600114ea                vTaskEnterCritical
+ .text.vTaskExitCritical
+                0x000000006001150c       0x2c kernel/tasks.o
+                0x000000006001150c                vTaskExitCritical
+ .text.xTaskCreate
+                0x0000000060011538      0x2a0 kernel/tasks.o
+                0x0000000060011538                xTaskCreate
+ .text.vTaskStartScheduler
+                0x00000000600117d8       0xac kernel/tasks.o
+                0x00000000600117d8                vTaskStartScheduler
+ .text.vTaskDelete
+                0x0000000060011884      0x12a kernel/tasks.o
+                0x0000000060011884                vTaskDelete
+ .text.prvIdleTask
+                0x00000000600119ae       0x8c kernel/tasks.o
+ .text.xTaskResumeAll
+                0x0000000060011a3a      0x13c kernel/tasks.o
+                0x0000000060011a3a                xTaskResumeAll
+ .text.xTaskCheckForTimeOut
+                0x0000000060011b76       0xcc kernel/tasks.o
+                0x0000000060011b76                xTaskCheckForTimeOut
+ .text.prvCheckForValidListAndQueue
+                0x0000000060011c42       0x8a kernel/timers.o
+ .text.prvInsertTimerInActiveList
+                0x0000000060011ccc       0x4c kernel/timers.o
+ .text.xTimerCreateTimerTask
+                0x0000000060011d18       0x64 kernel/timers.o
+                0x0000000060011d18                xTimerCreateTimerTask
+ .text.xTimerGenericCommand
+                0x0000000060011d7c       0x86 kernel/timers.o
+                0x0000000060011d7c                xTimerGenericCommand
+ .text.prvSwitchTimerLists
+                0x0000000060011e02       0xa4 kernel/timers.o
+ .text.prvTimerTask
+                0x0000000060011ea6      0x25e kernel/timers.o
+ .text.xPortStartScheduler
+                0x0000000060012104       0x58 kernel/portable/GCC/RISC-V/port.o
+                0x0000000060012104                xPortStartScheduler
+ .text.prvInsertBlockIntoFreeList
+                0x000000006001215c       0x4a kernel/portable/MemMang/heap_4.o
+ .text.pvPortMalloc
+                0x00000000600121a6      0x18c kernel/portable/MemMang/heap_4.o
+                0x00000000600121a6                pvPortMalloc
+ .text.vPortFree
+                0x0000000060012332       0xac kernel/portable/MemMang/heap_4.o
+                0x0000000060012332                vPortFree
+ .text._close   0x00000000600123de        0x4 libc/syscalls.o
+                0x00000000600123de                _close
+ .text._exit    0x00000000600123e2        0x6 libc/syscalls.o
+                0x00000000600123e2                _exit
+ .text._fstat   0x00000000600123e8        0x8 libc/syscalls.o
+                0x00000000600123e8                _fstat
+ .text._getpid  0x00000000600123f0        0x4 libc/syscalls.o
+                0x00000000600123f0                _getpid
+ .text._isatty  0x00000000600123f4        0x8 libc/syscalls.o
+                0x00000000600123f4                _isatty
+ .text._kill    0x00000000600123fc        0xe libc/syscalls.o
+                0x00000000600123fc                _kill
+ .text._lseek   0x000000006001240a        0x4 libc/syscalls.o
+                0x000000006001240a                _lseek
+ .text._read    0x000000006001240e        0x4 libc/syscalls.o
+                0x000000006001240e                _read
+ .text._write   0x0000000060012412       0x3e libc/syscalls.o
+                0x0000000060012412                _write
+ .text._malloc_r
+                0x0000000060012450        0xa libc/syscalls.o
+                0x0000000060012450                _malloc_r
+ .text._free_r  0x000000006001245a        0xa libc/syscalls.o
+                0x000000006001245a                _free_r
+ .text.timer_irq_handler
+                0x0000000060012464       0x20 target/safety-island/system.o
+                0x0000000060012464                timer_irq_handler
+ .text.system_init
+                0x0000000060012484       0x22 target/safety-island/system.o
+                0x0000000060012484                system_init
+ .text.vPortSetupTimerInterrupt
+                0x00000000600124a6       0x20 target/safety-island/system.o
+                0x00000000600124a6                vPortSetupTimerInterrupt
+ .text.vSystemIrqHandler
+                0x00000000600124c6       0x16 target/safety-island/system.o
+                0x00000000600124c6                vSystemIrqHandler
+ .text.uart_write
+                0x00000000600124dc       0x10 drivers/uart_chs.o
+                0x00000000600124dc                uart_write
+ .text.uart_write_str
+                0x00000000600124ec       0x34 drivers/uart_chs.o
+                0x00000000600124ec                uart_write_str
+ .text.uart_write_flush
+                0x0000000060012520       0x16 drivers/uart_chs.o
+                0x0000000060012520                uart_write_flush
+ .text.timer_irq_init
+                0x0000000060012536       0x1c drivers/timer_irq.o
+                0x0000000060012536                timer_irq_init
+ .text.stop_timer
+                0x0000000060012552        0xe drivers/timer.o
+                0x0000000060012552                stop_timer
+ .text.get_time
+                0x0000000060012560        0xa drivers/timer.o
+                0x0000000060012560                get_time
+ .text.irq_set_lvl_and_prio
+                0x000000006001256a       0x46 drivers/clic2.o
+                0x000000006001256a                irq_set_lvl_and_prio
+ .text.irq_set_trigger_type
+                0x00000000600125b0       0x1e drivers/clic2.o
+                0x00000000600125b0                irq_set_trigger_type
+ .text.irq_enable
+                0x00000000600125ce       0x6c drivers/clic2.o
+                0x00000000600125ce                irq_enable
+ .text.pulp_irq_init
+                0x000000006001263a       0x1e drivers/clic2.o
+                0x000000006001263a                pulp_irq_init
+ .text.vTask1   0x0000000060012658       0x4c main.o
+                0x0000000060012658                vTask1
+ .text.startup.main
+                0x00000000600126a4       0x3e main.o
+                0x00000000600126a4                main
+ .text.vApplicationIdleHook
+                0x00000000600126e2       0x34 main.o
+                0x00000000600126e2                vApplicationIdleHook
+ .text.vApplicationStackOverflowHook
+                0x0000000060012716       0x32 main.o
+                0x0000000060012716                vApplicationStackOverflowHook
+ .text.abort    0x0000000060012748       0x18 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+                0x0000000060012748                abort
+ .text.__assert_func
+                0x0000000060012760       0x4a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+                0x0000000060012760                __assert_func
+ .text.atexit   0x00000000600127aa       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+                0x00000000600127aa                atexit
+ .text.exit     0x00000000600127ba       0x34 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+                0x00000000600127ba                exit
+ .text.__libc_fini_array
+                0x00000000600127ee       0x3a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+                0x00000000600127ee                __libc_fini_array
+ .text.fprintf  0x0000000060012828       0x2e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+                0x0000000060012828                fprintf
+                0x0000000060012828                fiprintf
+ .text.__libc_init_array
+                0x0000000060012856       0x66 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+                0x0000000060012856                __libc_init_array
+ .text.__sfputc_r
+                0x00000000600128bc       0x2e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .text.__sfputs_r
+                0x00000000600128ea       0x48 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x00000000600128ea                __sfputs_r
+ .text._vfprintf_r
+                0x0000000060012932      0x2ca /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000060012932                _vfiprintf_r
+                0x0000000060012932                _vfprintf_r
+ .text.printf   0x0000000060012bfc       0x48 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+                0x0000000060012bfc                printf
+                0x0000000060012bfc                iprintf
+ .text._puts_r  0x0000000060012c44       0xf8 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x0000000060012c44                _puts_r
+ .text.puts     0x0000000060012d3c       0x12 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+                0x0000000060012d3c                puts
+ .text.cleanup_glue
+                0x0000000060012d4e       0x2c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+                0x0000000060012d4e                cleanup_glue
+ .text._reclaim_reent
+                0x0000000060012d7a      0x10a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+                0x0000000060012d7a                _reclaim_reent
+ .text._raise_r
+                0x0000000060012e84       0x6e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+                0x0000000060012e84                _raise_r
+ .text.raise    0x0000000060012ef2       0x12 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+                0x0000000060012ef2                raise
+ .text._kill_r  0x0000000060012f04       0x36 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+                0x0000000060012f04                _kill_r
+ .text._getpid_r
+                0x0000000060012f3a        0x8 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+                0x0000000060012f3a                _getpid_r
+ .text.__swbuf_r
+                0x0000000060012f42       0xd8 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+                0x0000000060012f42                __swbuf_r
+ .text.__swsetup_r
+                0x000000006001301a      0x11c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+                0x000000006001301a                __swsetup_r
+ .text.__register_exitproc
+                0x0000000060013136       0x88 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+                0x0000000060013136                __register_exitproc
+ .text.__call_exitprocs
+                0x00000000600131be       0xcc /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000600131be                __call_exitprocs
+ .text.__sflush_r
+                0x000000006001328a      0x150 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x000000006001328a                __sflush_r
+ .text._fflush_r
+                0x00000000600133da       0x70 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+                0x00000000600133da                _fflush_r
+ .text.std      0x000000006001344a       0x6e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .text._cleanup_r
+                0x00000000600134b8       0x10 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600134b8                _cleanup_r
+ .text.__sfmoreglue
+                0x00000000600134c8       0x50 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600134c8                __sfmoreglue
+ .text.__sinit  0x0000000060013518       0x8e /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x0000000060013518                __sinit
+ .text.__sfp    0x00000000600135a6       0xae /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600135a6                __sfp
+ .text._fwalk_reent
+                0x0000000060013654       0x6a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+                0x0000000060013654                _fwalk_reent
+ .text.__swhatbuf_r
+                0x00000000600136be       0x60 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x00000000600136be                __swhatbuf_r
+ .text.__smakebuf_r
+                0x000000006001371e       0xae /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+                0x000000006001371e                __smakebuf_r
+ .text.memchr   0x00000000600137cc       0x1a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+                0x00000000600137cc                memchr
+ .text._printf_common
+                0x00000000600137e6      0x10c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000600137e6                _printf_common
+ .text._printf_i
+                0x00000000600138f2      0x27a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000600138f2                _printf_i
+ .text.__sread  0x0000000060013b6c       0x36 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000060013b6c                __sread
+ .text.__swrite
+                0x0000000060013ba2       0x5a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000060013ba2                __swrite
+ .text.__sseek  0x0000000060013bfc       0x3c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000060013bfc                __sseek
+ .text.__sclose
+                0x0000000060013c38        0xc /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+                0x0000000060013c38                __sclose
+ .text._write_r
+                0x0000000060013c44       0x38 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+                0x0000000060013c44                _write_r
+ .text._close_r
+                0x0000000060013c7c       0x34 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+                0x0000000060013c7c                _close_r
+ .text._fstat_r
+                0x0000000060013cb0       0x36 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+                0x0000000060013cb0                _fstat_r
+ .text._isatty_r
+                0x0000000060013ce6       0x34 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+                0x0000000060013ce6                _isatty_r
+ .text._lseek_r
+                0x0000000060013d1a       0x38 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+                0x0000000060013d1a                _lseek_r
+ .text._read_r  0x0000000060013d52       0x38 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+                0x0000000060013d52                _read_r
+                0x0000000060013d8a                _etext = .
+ *(.lit)
+ *(.shdata)
+                0x0000000060013d8a                _endtext = .
+                0x0000000060013d8c                . = ALIGN (0x4)
+ *fill*         0x0000000060013d8a        0x2 
+
+.fini
+ *(.fini)
+                0x0000000060013d8c                __SRAM_priv0_end = ALIGN (0x4)
+
+.rodata         0x0000000060013d8c      0x7fc
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.xQueueGenericReset.str1.4
+                0x0000000060013d8c       0x21 kernel/queue.o
+ *fill*         0x0000000060013dad        0x3 
+ .rodata.xQueueGenericCreate.str1.4
+                0x0000000060013db0       0x22 kernel/queue.o
+ *fill*         0x0000000060013dd2        0x2 
+ .rodata.xQueueGenericSend.str1.4
+                0x0000000060013dd4       0xee kernel/queue.o
+ *fill*         0x0000000060013ec2        0x2 
+ .rodata.xQueueReceive.str1.4
+                0x0000000060013ec4       0x5f kernel/queue.o
+ *fill*         0x0000000060013f23        0x1 
+ .rodata.prvTaskIsTaskSuspended.str1.4
+                0x0000000060013f24        0x6 kernel/tasks.o
+                                         0x21 (size before relaxing)
+ *fill*         0x0000000060013f2a        0x2 
+ .rodata.xTaskIncrementTick.str1.4
+                0x0000000060013f2c       0x2b kernel/tasks.o
+ *fill*         0x0000000060013f57        0x1 
+ .rodata.vTaskSwitchContext.str1.4
+                0x0000000060013f58       0x47 kernel/tasks.o
+ *fill*         0x0000000060013f9f        0x1 
+ .rodata.vTaskPlaceOnEventList.str1.4
+                0x0000000060013fa0        0xc kernel/tasks.o
+ .rodata.xTaskRemoveFromEventList.str1.4
+                0x0000000060013fac        0xf kernel/tasks.o
+ *fill*         0x0000000060013fbb        0x1 
+ .rodata.xTaskPriorityDisinherit.str1.4
+                0x0000000060013fbc       0x2d kernel/tasks.o
+ *fill*         0x0000000060013fe9        0x3 
+ .rodata.vTaskStartScheduler.str1.4
+                0x0000000060013fec       0x39 kernel/tasks.o
+ *fill*         0x0000000060014025        0x3 
+ .rodata.vTaskDelete.str1.4
+                0x0000000060014028       0x1a kernel/tasks.o
+ *fill*         0x0000000060014042        0x2 
+ .rodata.xTaskResumeAll.str1.4
+                0x0000000060014044       0x15 kernel/tasks.o
+ *fill*         0x0000000060014059        0x3 
+ .rodata.vTaskSetTimeOutState.str1.4
+                0x000000006001405c        0xa kernel/tasks.o
+ *fill*         0x0000000060014066        0x2 
+ .rodata.xTaskCheckForTimeOut.str1.4
+                0x0000000060014068        0xe kernel/tasks.o
+ *fill*         0x0000000060014076        0x2 
+ .rodata.prvCheckForValidListAndQueue.str1.4
+                0x0000000060014078        0x5 kernel/timers.o
+ *fill*         0x000000006001407d        0x3 
+ .rodata.xTimerCreateTimerTask.str1.4
+                0x0000000060014080       0x10 kernel/timers.o
+                                         0x2c (size before relaxing)
+ .rodata.xTimerGenericCommand.str1.4
+                0x0000000060014090        0x7 kernel/timers.o
+ *fill*         0x0000000060014097        0x1 
+ .rodata.prvSwitchTimerLists.str1.4
+                0x0000000060014098        0x8 kernel/timers.o
+ .rodata.prvTimerTask.str1.4
+                0x00000000600140a0       0x25 kernel/timers.o
+ *fill*         0x00000000600140c5        0x3 
+ .rodata.prvTimerTask
+                0x00000000600140c8       0x28 kernel/timers.o
+ .rodata.xPortStartScheduler.str1.4
+                0x00000000600140f0       0x30 kernel/portable/GCC/RISC-V/port.o
+                                         0x49 (size before relaxing)
+ .rodata.pvPortMalloc.str1.4
+                0x0000000060014120       0x8a kernel/portable/MemMang/heap_4.o
+                                         0xa6 (size before relaxing)
+ *fill*         0x00000000600141aa        0x2 
+ .rodata.vPortFree.str1.4
+                0x00000000600141ac       0x54 kernel/portable/MemMang/heap_4.o
+ .rodata.irq_set_handler.str1.4
+                0x0000000060014200       0x72 drivers/clic2.o
+ *fill*         0x0000000060014272        0x2 
+ .rodata.irq_disable.str1.4
+                0x0000000060014274       0x23 drivers/clic2.o
+ *fill*         0x0000000060014297        0x1 
+ .rodata.__func__.1586
+                0x0000000060014298        0xb drivers/clic2.o
+ *fill*         0x00000000600142a3        0x1 
+ .rodata.vTask1.str1.4
+                0x00000000600142a4       0x2f main.o
+ *fill*         0x00000000600142d3        0x1 
+ .rodata.main.str1.4
+                0x00000000600142d4        0xd main.o
+ *fill*         0x00000000600142e1        0x3 
+ .rodata.vApplicationIdleHook.str1.4
+                0x00000000600142e4       0x20 main.o
+ .rodata.vApplicationStackOverflowHook.str1.4
+                0x0000000060014304       0x4e main.o
+ *fill*         0x0000000060014352        0x2 
+ .rodata.__assert_func.str1.4
+                0x0000000060014354       0x3f /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+                                         0x43 (size before relaxing)
+ *fill*         0x0000000060014393        0x1 
+ .rodata._vfprintf_r.str1.4
+                0x0000000060014394       0x13 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ *fill*         0x00000000600143a7        0x1 
+ .rodata.__sf_fake_stderr
+                0x00000000600143a8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600143a8                __sf_fake_stderr
+ .rodata.__sf_fake_stdin
+                0x00000000600143c8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600143c8                __sf_fake_stdin
+ .rodata.__sf_fake_stdout
+                0x00000000600143e8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+                0x00000000600143e8                __sf_fake_stdout
+ .rodata._printf_i.str1.4
+                0x0000000060014408       0x25 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ *fill*         0x000000006001442d        0x3 
+ .rodata._printf_i
+                0x0000000060014430       0x58 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata        0x0000000060014488      0x100 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+                0x0000000060014488                __clz_tab
+
+.rodata1
+ *(.rodata1)
+
+.boot
+ *(.boot)
+ *(.boot.data)
+
+.talias
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000060014588        0x0
+ *(.eh_frame)
+ .eh_frame      0x0000000060014588        0x0 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+                                         0x28 (size before relaxing)
+ *(.eh_frame.*)
+
+.rela.dyn       0x0000000060014588        0x0
+ .rela.text.vQueueAddToRegistry
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.xPortStartScheduler
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.sdata2.xISRStackTop
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._kill
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._write
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.start
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.system_init
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.vSystemIrqHandler
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.__libc_fini_array
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.__libc_init_array
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._vfprintf_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._kill_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text.__register_exitproc
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._write_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._close_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._fstat_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._isatty_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._lseek_r
+                0x0000000060014588        0x0 kernel/list.o
+ .rela.text._read_r
+                0x0000000060014588        0x0 kernel/list.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata          0x0000000060014588        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000060014588        0x0
+                0x0000000060014588                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                0x0000000060014588                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000060014588        0x0
+                0x0000000060014588                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                0x0000000060014588                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000060014588        0x0
+                0x0000000060014588                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                0x0000000060014588                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.gnu.offload_funcs
+ *(.gnu.offload_funcs)
+
+.gnu.offload_vars
+ *(.gnu.offload_vars)
+
+.data           0x0000000060014588       0x6c
+                0x0000000060014588                sdata = .
+                0x0000000060014588                _sdata = .
+                0x0000000060014588                __data_begin = .
+ *(.data_fc)
+ *(.data_fc.*)
+ *(.data)
+ *(.data.*)
+ .data.impure_data
+                0x0000000060014588       0x60 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+                0x00000000600145e8                __sdata_begin = .
+ *(.sdata)
+ *(.sdata.*)
+ .sdata._impure_ptr
+                0x00000000600145e8        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+                0x00000000600145e8                _impure_ptr
+ *(.sdata2.*)
+ .sdata2.xISRStackTop
+                0x00000000600145ec        0x4 kernel/portable/GCC/RISC-V/port.o
+                0x00000000600145ec                xISRStackTop
+ .sdata2._global_impure_ptr
+                0x00000000600145f0        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+                0x00000000600145f0                _global_impure_ptr
+ *(.heapl2ram)
+ *(.fcTcdm)
+ *(.fcTcdm.*)
+ *(.fcTcdm_g)
+ *(.fcTcdm_g.*)
+                0x00000000600145f4                . = ALIGN (0x4)
+                0x00000000600145f4                edata = .
+                0x00000000600145f4                _edata = .
+
+.bss            0x00000000600145f8      0x624
+                0x00000000600145f8                _bss_start = .
+                0x00000000600145f8                __bss_start = .
+ *(.shbss)
+ *(.bss)
+ *(.bss.*)
+ .bss.pxReadyTasksLists
+                0x00000000600145f8       0x50 kernel/tasks.o
+ .bss.xDelayedTaskList1
+                0x0000000060014648       0x14 kernel/tasks.o
+ .bss.xDelayedTaskList2
+                0x000000006001465c       0x14 kernel/tasks.o
+ .bss.xPendingReadyList
+                0x0000000060014670       0x14 kernel/tasks.o
+ .bss.xSuspendedTaskList
+                0x0000000060014684       0x14 kernel/tasks.o
+ .bss.xTasksWaitingTermination
+                0x0000000060014698       0x14 kernel/tasks.o
+ .bss.xActiveTimerList1
+                0x00000000600146ac       0x14 kernel/timers.o
+ .bss.xActiveTimerList2
+                0x00000000600146c0       0x14 kernel/timers.o
+ .bss._global_atexit0
+                0x00000000600146d4       0x8c /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ *(.sbss)
+ *(.sbss.*)
+ .sbss.pxCurrentTCB
+                0x0000000060014760        0x4 kernel/tasks.o
+                0x0000000060014760                pxCurrentTCB
+ .sbss.pxDelayedTaskList
+                0x0000000060014764        0x4 kernel/tasks.o
+ .sbss.pxOverflowDelayedTaskList
+                0x0000000060014768        0x4 kernel/tasks.o
+ .sbss.uxCurrentNumberOfTasks
+                0x000000006001476c        0x4 kernel/tasks.o
+ .sbss.uxDeletedTasksWaitingCleanUp
+                0x0000000060014770        0x4 kernel/tasks.o
+ .sbss.uxSchedulerSuspended
+                0x0000000060014774        0x4 kernel/tasks.o
+ .sbss.uxTaskNumber
+                0x0000000060014778        0x4 kernel/tasks.o
+ .sbss.uxTopReadyPriority
+                0x000000006001477c        0x4 kernel/tasks.o
+ .sbss.xIdleTaskHandle
+                0x0000000060014780        0x4 kernel/tasks.o
+ .sbss.xNextTaskUnblockTime
+                0x0000000060014784        0x4 kernel/tasks.o
+ .sbss.xNumOfOverflows
+                0x0000000060014788        0x4 kernel/tasks.o
+ .sbss.xPendedTicks
+                0x000000006001478c        0x4 kernel/tasks.o
+ .sbss.xSchedulerRunning
+                0x0000000060014790        0x4 kernel/tasks.o
+ .sbss.xTickCount
+                0x0000000060014794        0x4 kernel/tasks.o
+ .sbss.xYieldPending
+                0x0000000060014798        0x4 kernel/tasks.o
+ .sbss.pxCurrentTimerList
+                0x000000006001479c        0x4 kernel/timers.o
+ .sbss.pxOverflowTimerList
+                0x00000000600147a0        0x4 kernel/timers.o
+ .sbss.xLastTime.2891
+                0x00000000600147a4        0x4 kernel/timers.o
+ .sbss.xTimerQueue
+                0x00000000600147a8        0x4 kernel/timers.o
+ .sbss.xTimerTaskHandle
+                0x00000000600147ac        0x4 kernel/timers.o
+ .sbss.pxEnd    0x00000000600147b0        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xBlockAllocatedBit
+                0x00000000600147b4        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xFreeBytesRemaining
+                0x00000000600147b8        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xMinimumEverFreeBytesRemaining
+                0x00000000600147bc        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xNumberOfSuccessfulAllocations
+                0x00000000600147c0        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xNumberOfSuccessfulFrees
+                0x00000000600147c4        0x4 kernel/portable/MemMang/heap_4.o
+ .sbss.xStart   0x00000000600147c8        0x8 kernel/portable/MemMang/heap_4.o
+ .sbss.idle     0x00000000600147d0        0x4 main.o
+                0x00000000600147d0                idle
+ .sbss._global_atexit
+                0x00000000600147d4        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000600147d4                _global_atexit
+ *(COMMON)
+ COMMON         0x00000000600147d8       0x40 kernel/queue.o
+                0x00000000600147d8                xQueueRegistry
+ COMMON         0x0000000060014818      0x400 target/safety-island/system.o
+                0x0000000060014818                isr_table
+ COMMON         0x0000000060014c18        0x4 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+                0x0000000060014c18                errno
+                0x0000000060014c1c                . = ALIGN (0x4)
+                0x0000000060014c1c                __bss_end = .
+                0x0000000060014c1c                _bss_end = .
+                0x0000000060014c1c                _end = .
+                0x0000000060014d88                PROVIDE (__global_pointer$ = MIN ((__sdata_begin + 0x800), MAX ((__data_begin + 0x800), (__bss_end - 0x800))))
+
+.heap           0x0000000060014c20     0x8000
+                0x0000000060014c20                __heap_start = .
+ *(.heap)
+ .heap          0x0000000060014c20     0x8000 target/safety-island/system.o
+                0x0000000060014c20                ucHeap
+                0x000000006001cc20                __heap_end = .
+
+.stack          0x000000006001cc20      0x800
+                0x000000006001cc20                stack_start = .
+                0x000000006001cc20                __stack_bottom = .
+                0x000000006001d420                . = (. + __stack_size)
+ *fill*         0x000000006001cc20      0x800 
+                0x000000006001d420                __stack_top = .
+                0x000000006001d420                __freertos_irq_stack_top = .
+                0x000000006001d420                stack = .
+
+.SRAM_data      0x000000006001d420        0x0
+                0x000000006001d420                __cluster_text_start = .
+ *(.cluster.text)
+ *(.cluster.text.*)
+                0x000000006001d420                . = ALIGN (0x4)
+                0x000000006001d420                __cluster_text_end = .
+ *(.SRAM_data)
+ *(.SRAM_data.*)
+ *(.data_fc_shared)
+ *(.data_fc_shared.*)
+                0x000000006001d420                . = ALIGN (0x4)
+                0x000000006001d420                __SRAM_priv1_end = ALIGN (0x4)
+OUTPUT(freertos_simple_offloading elf32-littleriscv)
+
+.debug_info     0x0000000000000000    0x121cd
+ .debug_info    0x0000000000000000      0xb6e kernel/list.o
+ .debug_info    0x0000000000000b6e     0x2e73 kernel/queue.o
+ .debug_info    0x00000000000039e1     0x3ccc kernel/tasks.o
+ .debug_info    0x00000000000076ad     0x2007 kernel/timers.o
+ .debug_info    0x00000000000096b4      0xaff kernel/portable/GCC/RISC-V/port.o
+ .debug_info    0x000000000000a1b3     0x100d kernel/portable/MemMang/heap_4.o
+ .debug_info    0x000000000000b1c0     0x17f8 libc/syscalls.o
+ .debug_info    0x000000000000c9b8      0xc8a target/safety-island/system.o
+ .debug_info    0x000000000000d642      0x36e drivers/uart_chs.o
+ .debug_info    0x000000000000d9b0      0x29b drivers/timer_irq.o
+ .debug_info    0x000000000000dc4b      0x1e2 drivers/timer.o
+ .debug_info    0x000000000000de2d      0x741 drivers/clic2.o
+ .debug_info    0x000000000000e56e     0x12d9 main.o
+ .debug_info    0x000000000000f847      0xbd7 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_info    0x000000000001041e     0x1245 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .debug_info    0x0000000000011663      0xb6a /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.debug_abbrev   0x0000000000000000     0x320e
+ .debug_abbrev  0x0000000000000000      0x254 kernel/list.o
+ .debug_abbrev  0x0000000000000254      0x49f kernel/queue.o
+ .debug_abbrev  0x00000000000006f3      0x586 kernel/tasks.o
+ .debug_abbrev  0x0000000000000c79      0x46a kernel/timers.o
+ .debug_abbrev  0x00000000000010e3      0x2a2 kernel/portable/GCC/RISC-V/port.o
+ .debug_abbrev  0x0000000000001385      0x470 kernel/portable/MemMang/heap_4.o
+ .debug_abbrev  0x00000000000017f5      0x4ab libc/syscalls.o
+ .debug_abbrev  0x0000000000001ca0      0x391 target/safety-island/system.o
+ .debug_abbrev  0x0000000000002031      0x19f drivers/uart_chs.o
+ .debug_abbrev  0x00000000000021d0      0x171 drivers/timer_irq.o
+ .debug_abbrev  0x0000000000002341      0x105 drivers/timer.o
+ .debug_abbrev  0x0000000000002446      0x233 drivers/clic2.o
+ .debug_abbrev  0x0000000000002679      0x49f main.o
+ .debug_abbrev  0x0000000000002b18      0x242 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x0000000000002d5a      0x2cc /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .debug_abbrev  0x0000000000003026      0x1e8 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.debug_loc      0x0000000000000000     0x75ef
+ .debug_loc     0x0000000000000000       0x75 kernel/list.o
+ .debug_loc     0x0000000000000075     0x1d26 kernel/queue.o
+ .debug_loc     0x0000000000001d9b     0x2308 kernel/tasks.o
+ .debug_loc     0x00000000000040a3      0xf75 kernel/timers.o
+ .debug_loc     0x0000000000005018      0x4e8 kernel/portable/MemMang/heap_4.o
+ .debug_loc     0x0000000000005500      0x61d libc/syscalls.o
+ .debug_loc     0x0000000000005b1d       0xa1 target/safety-island/system.o
+ .debug_loc     0x0000000000005bbe      0x221 drivers/uart_chs.o
+ .debug_loc     0x0000000000005ddf      0x15c drivers/timer_irq.o
+ .debug_loc     0x0000000000005f3b       0x88 drivers/timer.o
+ .debug_loc     0x0000000000005fc3      0x539 drivers/clic2.o
+ .debug_loc     0x00000000000064fc      0x493 main.o
+ .debug_loc     0x000000000000698f       0x6b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_loc     0x00000000000069fa      0xbf5 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+
+.debug_aranges  0x0000000000000000      0x800
+ .debug_aranges
+                0x0000000000000000       0x40 kernel/list.o
+ .debug_aranges
+                0x0000000000000040      0x120 kernel/queue.o
+ .debug_aranges
+                0x0000000000000160      0x1e8 kernel/tasks.o
+ .debug_aranges
+                0x0000000000000348       0xb8 kernel/timers.o
+ .debug_aranges
+                0x0000000000000400       0x28 kernel/portable/GCC/RISC-V/port.o
+ .debug_aranges
+                0x0000000000000428       0x58 kernel/portable/MemMang/heap_4.o
+ .debug_aranges
+                0x0000000000000480      0x148 libc/syscalls.o
+ .debug_aranges
+                0x00000000000005c8       0x70 target/safety-island/system.o
+ .debug_aranges
+                0x0000000000000638       0x50 drivers/uart_chs.o
+ .debug_aranges
+                0x0000000000000688       0x38 drivers/timer_irq.o
+ .debug_aranges
+                0x00000000000006c0       0x30 drivers/timer.o
+ .debug_aranges
+                0x00000000000006f0       0x58 drivers/clic2.o
+ .debug_aranges
+                0x0000000000000748       0x60 main.o
+ .debug_aranges
+                0x00000000000007a8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x00000000000007c8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .debug_aranges
+                0x00000000000007e8       0x18 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.debug_ranges   0x0000000000000000      0xfc8
+ .debug_ranges  0x0000000000000000       0x30 kernel/list.o
+ .debug_ranges  0x0000000000000030      0x308 kernel/queue.o
+ .debug_ranges  0x0000000000000338      0x418 kernel/tasks.o
+ .debug_ranges  0x0000000000000750      0x160 kernel/timers.o
+ .debug_ranges  0x00000000000008b0       0x30 kernel/portable/GCC/RISC-V/port.o
+ .debug_ranges  0x00000000000008e0       0x60 kernel/portable/MemMang/heap_4.o
+ .debug_ranges  0x0000000000000940      0x158 libc/syscalls.o
+ .debug_ranges  0x0000000000000a98       0x60 target/safety-island/system.o
+ .debug_ranges  0x0000000000000af8       0xe8 drivers/uart_chs.o
+ .debug_ranges  0x0000000000000be0       0x40 drivers/timer_irq.o
+ .debug_ranges  0x0000000000000c20       0x20 drivers/timer.o
+ .debug_ranges  0x0000000000000c40      0x180 drivers/clic2.o
+ .debug_ranges  0x0000000000000dc0       0xe8 main.o
+ .debug_ranges  0x0000000000000ea8       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_ranges  0x0000000000000ec8      0x100 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+
+.debug_line     0x0000000000000000     0xebef
+ .debug_line    0x0000000000000000      0x62b kernel/list.o
+ .debug_line    0x000000000000062b     0x312b kernel/queue.o
+ .debug_line    0x0000000000003756     0x4f8d kernel/tasks.o
+ .debug_line    0x00000000000086e3     0x1765 kernel/timers.o
+ .debug_line    0x0000000000009e48      0x2c7 kernel/portable/GCC/RISC-V/port.o
+ .debug_line    0x000000000000a10f      0xd71 kernel/portable/MemMang/heap_4.o
+ .debug_line    0x000000000000ae80      0xaea libc/syscalls.o
+ .debug_line    0x000000000000b96a      0x580 target/safety-island/system.o
+ .debug_line    0x000000000000beea      0x59b drivers/uart_chs.o
+ .debug_line    0x000000000000c485      0x28b drivers/timer_irq.o
+ .debug_line    0x000000000000c710      0x24c drivers/timer.o
+ .debug_line    0x000000000000c95c      0x74f drivers/clic2.o
+ .debug_line    0x000000000000d0ab      0xd81 main.o
+ .debug_line    0x000000000000de2c      0x29f /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .debug_line    0x000000000000e0cb      0x911 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .debug_line    0x000000000000e9dc      0x213 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.debug_str      0x0000000000000000     0x3406
+ .debug_str     0x0000000000000000      0x6aa kernel/list.o
+                                        0x752 (size before relaxing)
+ .debug_str     0x00000000000006aa      0x8b0 kernel/queue.o
+                                        0xfb4 (size before relaxing)
+ .debug_str     0x0000000000000f5a      0xcc2 kernel/tasks.o
+                                       0x165e (size before relaxing)
+ .debug_str     0x0000000000001c1c      0x555 kernel/timers.o
+                                        0xe14 (size before relaxing)
+ .debug_str     0x0000000000002171      0x134 kernel/portable/GCC/RISC-V/port.o
+                                        0x76a (size before relaxing)
+ .debug_str     0x00000000000022a5      0x30b kernel/portable/MemMang/heap_4.o
+                                        0x98b (size before relaxing)
+ .debug_str     0x00000000000025b0      0x3d3 libc/syscalls.o
+                                        0xa8d (size before relaxing)
+ .debug_str     0x0000000000002983      0x170 target/safety-island/system.o
+                                        0x793 (size before relaxing)
+ .debug_str     0x0000000000002af3       0xe2 drivers/uart_chs.o
+                                        0x2d9 (size before relaxing)
+ .debug_str     0x0000000000002bd5       0xc0 drivers/timer_irq.o
+                                        0x2a3 (size before relaxing)
+ .debug_str     0x0000000000002c95       0x72 drivers/timer.o
+                                        0x25f (size before relaxing)
+ .debug_str     0x0000000000002d07       0xd0 drivers/clic2.o
+                                        0x2f9 (size before relaxing)
+ .debug_str     0x0000000000002dd7      0x212 main.o
+                                        0x98c (size before relaxing)
+ .debug_str     0x0000000000002fe9      0x2dd /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+                                        0x7d8 (size before relaxing)
+ .debug_str     0x00000000000032c6      0x140 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+                                        0x874 (size before relaxing)
+ .debug_str     0x0000000000003406      0x7bb /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.comment        0x0000000000000000       0x28
+ .comment       0x0000000000000000       0x28 kernel/list.o
+                                         0x29 (size before relaxing)
+ .comment       0x0000000000000028       0x29 kernel/queue.o
+ .comment       0x0000000000000028       0x29 kernel/tasks.o
+ .comment       0x0000000000000028       0x29 kernel/timers.o
+ .comment       0x0000000000000028       0x29 kernel/portable/GCC/RISC-V/port.o
+ .comment       0x0000000000000028       0x29 kernel/portable/MemMang/heap_4.o
+ .comment       0x0000000000000028       0x29 libc/syscalls.o
+ .comment       0x0000000000000028       0x29 target/safety-island/system.o
+ .comment       0x0000000000000028       0x29 drivers/uart_chs.o
+ .comment       0x0000000000000028       0x29 drivers/timer_irq.o
+ .comment       0x0000000000000028       0x29 drivers/timer.o
+ .comment       0x0000000000000028       0x29 drivers/clic2.o
+ .comment       0x0000000000000028       0x29 main.o
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .comment       0x0000000000000028       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.riscv.attributes
+                0x0000000000000000       0x2b
+ .riscv.attributes
+                0x0000000000000000       0x2b kernel/list.o
+ .riscv.attributes
+                0x000000000000002b       0x2b kernel/queue.o
+ .riscv.attributes
+                0x0000000000000056       0x2b kernel/tasks.o
+ .riscv.attributes
+                0x0000000000000081       0x2b kernel/timers.o
+ .riscv.attributes
+                0x00000000000000ac       0x2b kernel/portable/GCC/RISC-V/port.o
+ .riscv.attributes
+                0x00000000000000d7       0x29 kernel/portable/GCC/RISC-V/portASM.o
+ .riscv.attributes
+                0x0000000000000100       0x2b kernel/portable/MemMang/heap_4.o
+ .riscv.attributes
+                0x000000000000012b       0x2b libc/syscalls.o
+ .riscv.attributes
+                0x0000000000000156       0x29 target/safety-island/crt0.o
+ .riscv.attributes
+                0x000000000000017f       0x2b target/safety-island/system.o
+ .riscv.attributes
+                0x00000000000001aa       0x29 target/safety-island/vectors.o
+ .riscv.attributes
+                0x00000000000001d3       0x2b drivers/uart_chs.o
+ .riscv.attributes
+                0x00000000000001fe       0x2b drivers/timer_irq.o
+ .riscv.attributes
+                0x0000000000000229       0x2b drivers/timer.o
+ .riscv.attributes
+                0x0000000000000254       0x2b drivers/clic2.o
+ .riscv.attributes
+                0x000000000000027f       0x2b main.o
+ .riscv.attributes
+                0x00000000000002aa       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-abort.o)
+ .riscv.attributes
+                0x00000000000002d5       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-assert.o)
+ .riscv.attributes
+                0x0000000000000300       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-atexit.o)
+ .riscv.attributes
+                0x000000000000032b       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-exit.o)
+ .riscv.attributes
+                0x0000000000000356       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fini.o)
+ .riscv.attributes
+                0x0000000000000381       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fprintf.o)
+ .riscv.attributes
+                0x00000000000003ac       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-impure.o)
+ .riscv.attributes
+                0x00000000000003d7       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-init.o)
+ .riscv.attributes
+                0x0000000000000402       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memcpy-asm.o)
+ .riscv.attributes
+                0x000000000000042b       0x29 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memset.o)
+ .riscv.attributes
+                0x0000000000000454       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf.o)
+ .riscv.attributes
+                0x000000000000047f       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-printf.o)
+ .riscv.attributes
+                0x00000000000004aa       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-puts.o)
+ .riscv.attributes
+                0x00000000000004d5       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-reent.o)
+ .riscv.attributes
+                0x0000000000000500       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signal.o)
+ .riscv.attributes
+                0x000000000000052b       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-signalr.o)
+ .riscv.attributes
+                0x0000000000000556       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wbuf.o)
+ .riscv.attributes
+                0x0000000000000581       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-wsetup.o)
+ .riscv.attributes
+                0x00000000000005ac       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__atexit.o)
+ .riscv.attributes
+                0x00000000000005d7       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-__call_atexit.o)
+ .riscv.attributes
+                0x0000000000000602       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fflush.o)
+ .riscv.attributes
+                0x000000000000062d       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-findfp.o)
+ .riscv.attributes
+                0x0000000000000658       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fwalk.o)
+ .riscv.attributes
+                0x0000000000000683       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-makebuf.o)
+ .riscv.attributes
+                0x00000000000006ae       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-memchr.o)
+ .riscv.attributes
+                0x00000000000006d9       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .riscv.attributes
+                0x0000000000000704       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-stdio.o)
+ .riscv.attributes
+                0x000000000000072f       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-writer.o)
+ .riscv.attributes
+                0x000000000000075a       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-closer.o)
+ .riscv.attributes
+                0x0000000000000785       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-fstatr.o)
+ .riscv.attributes
+                0x00000000000007b0       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-isattyr.o)
+ .riscv.attributes
+                0x00000000000007db       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-lseekr.o)
+ .riscv.attributes
+                0x0000000000000806       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/../../../../riscv32-unknown-elf/lib/rv32imac/ilp32/libc_nano.a(lib_a-readr.o)
+ .riscv.attributes
+                0x0000000000000831       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)
+ .riscv.attributes
+                0x000000000000085c       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_udivdi3.o)
+ .riscv.attributes
+                0x0000000000000887       0x2b /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clz.o)
+
+.debug_frame    0x0000000000000000     0x185c
+ .debug_frame   0x0000000000000000       0x60 kernel/list.o
+ .debug_frame   0x0000000000000060      0x488 kernel/queue.o
+ .debug_frame   0x00000000000004e8      0x848 kernel/tasks.o
+ .debug_frame   0x0000000000000d30      0x2a0 kernel/timers.o
+ .debug_frame   0x0000000000000fd0       0x3c kernel/portable/GCC/RISC-V/port.o
+ .debug_frame   0x000000000000100c      0x100 kernel/portable/MemMang/heap_4.o
+ .debug_frame   0x000000000000110c      0x2cc libc/syscalls.o
+ .debug_frame   0x00000000000013d8       0xf4 target/safety-island/system.o
+ .debug_frame   0x00000000000014cc       0xc8 drivers/uart_chs.o
+ .debug_frame   0x0000000000001594       0x50 drivers/timer_irq.o
+ .debug_frame   0x00000000000015e4       0x40 drivers/timer.o
+ .debug_frame   0x0000000000001624       0xd0 drivers/clic2.o
+ .debug_frame   0x00000000000016f4      0x148 main.o
+ .debug_frame   0x000000000000183c       0x20 /usr/pack/riscv-1.0-kgf/pulp-gcc-2.6.0/bin/../lib/gcc/riscv32-unknown-elf/9.2.0/rv32imac/ilp32/libgcc.a(_clzsi2.o)

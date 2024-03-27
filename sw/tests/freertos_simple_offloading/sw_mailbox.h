@@ -178,5 +178,3 @@ int mailbox_try_read(uint32_t *buffer);
  */
 int mailbox_write(uint32_t word);
 
-int mailbox_write_mult(uint32_t *words, size_t n_words);
-

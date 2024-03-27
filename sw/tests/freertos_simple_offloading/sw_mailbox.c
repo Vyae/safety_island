@@ -68,20 +68,17 @@ void snrt_hero_exit(int code) { syscall(SYS_exit, code, 0, 0, 0, 0); }
 int mailbox_try_read(uint32_t *buffer) {
     return rb_device_get(g_h2a_mbox, buffer);
 }
-
 int mailbox_read(uint32_t *buffer, size_t n_words) {
-    volatile struct ring_buf *rb = g_h2a_mbox;
-    size_t n_words_left = n_words;
-
+    int ret;
     //printf("Reading mailbox 0x%lx...\r\n", g_h2a_mbox);
-    while(n_words_left > 0) {
-        while(rb->tail != rb->head && n_words_left > 0) {
-            buffer[n_words - n_words_left] = *((uint32_t *)rb->data_p + rb->tail);
-            n_words_left = n_words_left - 1;
-            rb->tail = (rb->tail + 1) % rb->size;
-        }
+    while (n_words--) {
+        do {
+            ret = rb_device_get(g_h2a_mbox, &buffer[n_words]);
+            if (ret) {
+                //csleep(1000);
+            }
+        } while (ret);
     }
-
     return 0;
 }
 int mailbox_write(uint32_t word) {
@@ -93,23 +90,4 @@ int mailbox_write(uint32_t word) {
         }
     } while (ret);
     return ret;
-}
-
-int mailbox_write_mult(uint32_t *words, size_t n_words) {
-    int ret, retry = 0;
-    volatile struct ring_buf *rb = g_a2h_mbox;
-    uint32_t el_free = 0;
-    uint32_t next_head = 0;
-
-    while(n_words > 0) {
-        next_head = (rb->head + 1) % rb->size;
-        while(next_head != rb->tail && n_words > 0) {
-            *((uint32_t *)rb->data_p + rb->head) = *words++;
-            n_words = n_words - 1;
-            rb->head = next_head;
-            next_head = (rb->head + 1) % rb->size;
-        }
-    }
-
-    return 0;
 }

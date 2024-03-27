@@ -66,7 +66,7 @@
 #define configMINIMAL_STACK_SIZE ((unsigned short)400)
 // /* we want to put the heap into special section */
 #define configAPPLICATION_ALLOCATED_HEAP 1
-#define configTOTAL_HEAP_SIZE		 ((size_t)(27 * 1024))
+#define configTOTAL_HEAP_SIZE		 ((size_t)(32 * 1024))
 #define configMAX_TASK_NAME_LEN		 (16)
 #define configUSE_TRACE_FACILITY	 1 /* TODO: 0 */
 #define configUSE_16_BIT_TICKS		 0
@@ -134,7 +134,7 @@ header file. */
 	} while (0)
 //#endif
 
-#define configUSE_PORT_OPTIMISED_TASK_SELECTION 0
+#define configUSE_PORT_OPTIMISED_TASK_SELECTION 1
 #define configKERNEL_INTERRUPT_PRIORITY		7
 
 #endif /* FREERTOS_CONFIG_H */

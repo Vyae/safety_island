@@ -118,7 +118,6 @@ void free_mailbox() {
     }
 
     if(mb) {
-        DP("Freeing mailbox...\r\n");
         if(mb_prev) {
             mb_prev->next = mb->next;
         } else {
@@ -248,8 +247,7 @@ void offload_task_wrapper( void *pvParameters )
     (*offload_params->offloadFn)(offload_params->offloadArgs);
 
     if(xPeriod > 0) {
-        for(int i=0; i<1; i++) {
-        //while(1) {
+        while(1) {
             // Wait for the next cycle.
             vTaskDelayUntil(&xLastWakeTime, xPeriod);
 
@@ -267,252 +265,30 @@ free_params:
 }
 
 
-void gomp_offload_manager( void *pvParameters ) {
-    DP("[Safety] gomp_offload_manager\r\n");
 
-    // FIXME For the momenent we are not using the cmd sended as trigger.
-    // It should be used to perform the deactivation of the accelerator,
-    // as well as other operations, like local data allocation or movement.
-    // FIXME Note that the offload at the moment use several time the mailbox.
-    // We should compact the offload descriptor and just sent a pointer to
-    // that descriptor.
-
-    uint32_t cmd = (uint32_t)NULL;
-
-    // Offloaded function pointer and arguments
-    void (*offloadFn)(uint64_t) = NULL;
-    void *offloadArgs = 0x0;
-    int32_t priority = 0x0;
-    int32_t period = 0x0;
-    int32_t mb_h2d = 0x0;
-    int32_t mb_d2h = 0x0;
-    int nbOffloadRabMissHandlers = 0x0;
-    struct offload_wrapper_args *offload_wrapper_args = NULL;
-
-    uint32_t freeHeapSpace = 0;
-
-    // uint32_t cycles0 = 0;
-    // uint32_t cycles1 = 0;
-    // uint32_t cycles2 = 0;
-    // uint32_t cycles3 = 0;
-    uint32_t cycles4 = 0;
-
-    // uint32_t cyclesmb0 = 0;
-    // uint32_t cyclesmb1 = 0;
-    // uint32_t cyclesmb2 = 0;
-    // uint32_t cyclesmb3 = 0;
-    // uint32_t cyclesmb4 = 0;
-    // uint32_t cyclesmb5 = 0;
-    // uint32_t cyclesmb6 = 0;
-    // uint32_t cyclesmb7 = 0;
-
-
-    // Print the addresses of the mboxes for debug purpose
-    // Note this printf is uper minimal, we need to wait to avoid
-    // loosing chars when the UART is busy
-    uint32_t *chs_ctrl_regs = 0x3000000;
-
-
-    DP("[Safety] mailboxes: 0x%x and 0x%x\r\n", *(chs_ctrl_regs), *(chs_ctrl_regs + 1));
-    g_h2a_mbox = *((struct ring_buf **) chs_ctrl_regs);
-    g_a2h_mbox = *((struct ring_buf **)(chs_ctrl_regs + 1));
-
-    int task_nr = 0;
-    char task_name[] = "Offloaded task XX\0"; 
-
-    uint32_t letters = 0;
-
-    while (1) {
-        DP("[Safety] Waiting for command...\r\n");
-
-        // (1) Wait for the offload trigger.
-        //letters = 0;
-        //while(g_h2a_mbox->head - g_h2a_mbox->tail != 8 && g_h2a_mbox->head - g_h2a_mbox->tail != -8);
-
-        while(1) {
-            if (mailbox_try_read((uint32_t *)&cmd)) {
-                //vTaskDelay(1);
-            } else {
-                //printf("[Safety] mb dif: %d\r\n", g_h2a_mbox->head - g_h2a_mbox->tail);
-                break;
-            }
-        }
-
-        // stop_timer();
-        // cyclesmb0 = get_time();
-        // start_timer();
-
-        DP("[Safety] cmd: 0x%x\r\n", cmd);
-
-        if (MBOX_DEVICE_STOP == cmd) {
-            DP("[Safety] Got PULP_STOP from host, stopping execution now.\r\n");
-            break;
-        }
-
-
-        // (2) The host sends through the mailbox the pointer to the function
-        // that should be executed on the accelerator.
-        mailbox_read((uint32_t *)&offloadFn, 1);
-
-        // stop_timer();
-        // cyclesmb1 = get_time();
-        // start_timer();
-        // (3) The host sends through the mailbox the pointer to the arguments
-        // that should be used.
-        mailbox_read((uint32_t *)&offloadArgs, 1);
-
-        // stop_timer();
-        // cyclesmb2 = get_time();
-        // start_timer();
-        // (3) The host sends through the mailbox the priority, period and
-        // mailbox pointer of the task to be created. (They can also be -1/0)
-        mailbox_read((int32_t *)&priority, 1);
-        // stop_timer();
-        // cyclesmb3 = get_time();
-        // start_timer();
-        mailbox_read((int32_t *)&period, 1);
-        // stop_timer();
-        // cyclesmb4 = get_time();
-        // start_timer();
-        // mailbox_read((uint32_t *)&mb_h2d, 1);
-        // stop_timer();
-        // cyclesmb5 = get_time();
-        // start_timer();
-        mailbox_read((uint32_t *)&mb_d2h, 1);
-
-        // stop_timer();
-        // cyclesmb6 = get_time();
-        // start_timer();
-        // (3b) The host sends through the mailbox the number of rab misses
-        // handlers threads
-        mailbox_read((uint32_t *)&nbOffloadRabMissHandlers, 1);
-
-        // stop_timer();
-        // cyclesmb7 = get_time();
-        // start_timer();
-
-        // DP("nbOffloadRabMissHandlers %d\r\n", nbOffloadRabMissHandlers);
-
-        // (3c) Spawning nbOffloadRabMissHandlers
-        // Not implemented
-
-        // (4) Ensure access to offloadArgs. It might be in SVM.
-        // Not implemented
-
-        DP("[Safety] Received task to offload: tgt_fn: 0x%x, tgt_vars: 0x%x, priority: 0x%x, " "period: 0x%x, mb_h2d: 0x%x, mb_d2h: 0x%x\r\n", 
-                    offloadFn, offloadArgs, priority, period, mb_h2d, mb_d2h);
-
-        // (5) Create task that executes the offloaded function.
-        //start_timer();
-
-        // Name of task
-        task_name[16] = '0' + task_nr % 10;
-        task_name[15] = '0' + task_nr / 10;
-        task_nr++;
-
-        // stop_timer();
-        // cycles1 = get_time();
-        // start_timer();
-
-        // Pack arguments for TaskCreate
-        offload_wrapper_args = (struct offload_wrapper_args *) pvPortMalloc(sizeof(struct offload_wrapper_args));
-        if(!offload_wrapper_args) {
-            DP("[Safety] Failed to malloc. Abort.\r\n");
-            continue;
-        }
-        // stop_timer();
-        // cycles2 = get_time();
-        // start_timer();
-        offload_wrapper_args->offloadFn = offloadFn;
-        offload_wrapper_args->offloadArgs = offloadArgs;
-        offload_wrapper_args->period = period;
-        offload_wrapper_args->mb_h2d = mb_h2d;
-        offload_wrapper_args->mb_d2h = mb_d2h;
-
-        //printf("offload fn ptr: 0x%x\r\n", offloadFn);
-        //printf("offloadArgs ptr: 0x%x\r\n", offloadArgs);
-        //printf("offloadArgs[0]]: 0x%d\r\n", *((uint32_t *) offloadArgs));
-        //printf("offloadArgs[1]]: 0x%d\r\n", *(((uint32_t *) offloadArgs)+1));
-
-        freeHeapSpace = xPortGetFreeHeapSize();
-        DP("[Safety] Free heap space: 0x%x\r\n", freeHeapSpace);
-        if (priority < 0) {
-            priority = 0;
-        }
-        TaskHandle_t taskhandle = NULL;
-        BaseType_t xReturned = xTaskCreate( offload_task_wrapper, task_name, 700, (void *) offload_wrapper_args, priority, &taskhandle );
-
-        // stop_timer();
-        // cycles3 = get_time();
-        // start_timer();
-
-        if(xReturned < 0) {
-            ERR("[Safety] Creating Task \"%s\" FAILED.\r\n", task_name);
-            if(xReturned == errCOULD_NOT_ALLOCATE_REQUIRED_MEMORY)
-                ERR("[Safety] Error: errCOULD_NOT_ALLOCATE_REQUIRED_MEMORY\r\n");
-        } else {
-            DP("[Safety] Offloaded task \"%s\" created: %x\r\n", task_name, xReturned);
-        }
-
-        //ticks1 = xTaskGetTickCount();
-
-        stop_timer();
-        cycles4 = get_time();
-        //start_timer();
-
-
-        //printf("[Safety] Time MailboxTry: %d cycles\r\n", cycles0);
-        // printf("[Safety] Time Reading Args: %d cycles\r\n", cycles1);
-        // printf("[Safety] Time Malloc: %d cycles\r\n", cycles2);
-        // printf("[Safety] Time TaskCreate: %d cycles\r\n", cycles3);
-        
-        // printf("[Safety] Time MB 0: %d cycles\r\n", cyclesmb0);
-        // printf("[Safety] Time MB 1: %d cycles\r\n", cyclesmb1);
-        // printf("[Safety] Time MB 2: %d cycles\r\n", cyclesmb2);
-        // printf("[Safety] Time MB 3: %d cycles\r\n", cyclesmb3);
-        // printf("[Safety] Time MB 4: %d cycles\r\n", cyclesmb4);
-        // printf("[Safety] Time MB 5: %d cycles\r\n", cyclesmb5);
-        // printf("[Safety] Time MB 6: %d cycles\r\n", cyclesmb6);
-        // printf("[Safety] Time MB 7: %d cycles\r\n", cyclesmb7);
-
-        //uint32_t mb_letters[] = {MBOX_DEVICE_DONE, cycles4};
-        //mailbox_write_mult(mb_letters, sizeof(mb_letters)/sizeof(uint32_t));
-
-        mailbox_write(MBOX_DEVICE_DONE);
-        mailbox_write(cycles4);
-
-        // DP("Kernel execution time [PULP cycles] = %d\r\n", 0x0);
-
-        vTaskDelay(10);
-    }
-
-    vTaskDelete(NULL);
-}
 
 void vTask1( void *pvParameters )
 {
 	const char *pcTaskName = "Task 1 is running\r\n";
-	/* As per most tasks, this task is implemented in an infinite loop. */
     TickType_t xLastWakeTime;
-    // Before: 1024 x 1024 x 10 cycles
-    // Now: 100000 x 100 Cycles? per Tick
-    const TickType_t xFrequency = 20 * 1024;
 
+    stop_timer();
+    uint32_t cycles = get_time();
+    printf("[Safety] Time: %d cycles\r\n", cycles);
+    
     printf(pcTaskName);
 
     // Initialise the xLastWakeTime variable with the current time.
     xLastWakeTime = xTaskGetTickCount();
+    const TickType_t  xPeriod = 0;
 
-    volatile int x=0;
-    while(1) {
-        // Wait for the next cycle.
-        vTaskDelayUntil( &xLastWakeTime, xFrequency );
-
-        //for(int i=0; i<1024*20000; i++){
-        //    (void) x;
-        //}
-        /* Print out the name of this task. */
-		printf(pcTaskName);
+    if(xPeriod > 0) {
+        while(1) {
+            // Wait for the next cycle.
+            vTaskDelayUntil(&xLastWakeTime, xPeriod);
+            print(pcTaskName);
+            
+        }
     }
 
     vTaskDelete(NULL);
@@ -524,8 +300,8 @@ int done = 0;
 int iters = 0;
 
 __attribute__((weak)) int main(int argc, char **argv, char **envp) {
-    
-
+    // FIXME: handle multi-cluster properly
+    //csleep(1024 * 1024 * 20);
     DP("\r\n\r\nXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX\r\n");
     DP("[Safety] START OF SAFETY ISLAND MAIN\r\n");
 
@@ -533,13 +309,13 @@ __attribute__((weak)) int main(int argc, char **argv, char **envp) {
 
     DP("[Safety] INITIATED SAFETY ISLAND SYSTEM\r\n");
 
-    BaseType_t xReturnedOffload = xTaskCreate( gomp_offload_manager, "Offload Manager", 2000, NULL, 4, NULL );
+    //BaseType_t xReturnedOffload = xTaskCreate( gomp_offload_manager, "Offload Manager", 2000, NULL, 4, NULL );
     
-    DP("[Safety] Offload task created: %x\r\n", xReturnedOffload);
+    //DP("[Safety] Offload task created: %x\r\n", xReturnedOffload);
     
 	/* Create the other task in exactly the same way and at the same priority. */
-	//BaseType_t xReturnedPrint = xTaskCreate( vTask1, "Printer Task", 700, NULL, 2, NULL );
-    //DP("Print task created: %x\r\n", xReturnedPrint);
+	BaseType_t xReturnedPrint = xTaskCreate( vTask1, "Printer Task", 700, NULL, 2, NULL );
+    DP("Print task created: %x\r\n", xReturnedPrint);
 
     // uint32_t meow = 0;
     // asm volatile (
@@ -547,6 +323,7 @@ __attribute__((weak)) int main(int argc, char **argv, char **envp) {
     //     :"=r"(meow)
     //     ::
     // );
+
 
 	/* Start the scheduler so the tasks start executing. */
 	vTaskStartScheduler();
